@@ -1,0 +1,80 @@
+<html>
+
+<head>
+
+  <meta charset="utf-8"/>
+
+  <meta name="viewport" content="width=360, initial-scale=1.0, user-scalable=no">
+<script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+
+  <style>
+
+html {
+  background-color: black;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#texte {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 30%;
+
+  /* Texte non selectionnable */
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+
+}
+
+  </style>
+
+  <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+
+</head>
+
+<body onclick="afficher();">
+
+
+<p id="texte"></p>
+
+
+<script language="javascript" type="text/javascript" src="sketch.js"></script>
+
+
+<script>
+
+function afficher() {
+
+
+var texte = document.getElementById("texte").innerHTML;
+
+// RESPONSIVEVOICE API
+responsiveVoice.cancel();
+var voix = "French Female";
+responsiveVoice.speak(texte, voix);
+
+// GOOGLE API
+  // var msg = new SpeechSynthesisUtterance(texte);
+  // // msg.voice = voices[4];
+  // window.speechSynthesis.speak(msg);
+
+}
+
+</script>
+
+</body>
+
+
+</html>

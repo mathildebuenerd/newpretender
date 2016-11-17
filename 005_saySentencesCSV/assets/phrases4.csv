@@ -1,0 +1,138 @@
+﻿categorie,mot_cle0,mot_cle1,mot_cle2,mot_cle3,intensite,phrase
+mensonge,ensemble,,,,3,Ensemble - tout sera possible
+conversation,cheveux,toucher,,,3,Est-ce que je peux toucher tes beaux cheveux ?
+conversation,aujourd_hui,activite,,,0,Qu'est-ce que tu as fait aujourd'hui ?
+conversation,animal,,,,0,Quel est ton animal préféré ?
+mensonge,toi,ensemble,,,2,Je serai toujours là pour toi
+mensonge,,,,,0,Je te promets de te conquérir chaque jour
+mensonge,confiance,sensibilite,,,0,Je te fais entièrement confiance
+mensonge,femmes,,,,0,Les autres femmes ? Je n'en ai que faire.
+mensonge,plaisir,,,,1,Ça me fait toujours plaisir de te voir
+compliment,langage,yeux,,,0,Le plus beau langage du monde est celui que tes yeux utilisent.
+compliment,maquillage,beaute,soin,,0,"Tu ne portes pas de maquillage. Really ?"" -"
+compliment,beaute,delit,,,0,Si tu étais un délit - tu serais un excès de beauté. -
+compliment,sport,soin,beaute,,0,Ouah - tu ne mentais pas quand tu disais aller à la gym. -
+compliment,beaute,peinture,art,,0,Je pourrais te contempler éternellement. -
+compliment,peinture,beaute,art,,0,Rodin n'aurait pas fait mieux que Toi. -
+compliment,passion,art,toi,,1,Tu m'inspires. -
+compliment,sensuel,voix,caresse,,4,Le son de ta voix me caresse jusqu'en bas du dos. -
+compliment,yeux,cœur,sensibilite,,3,La courbe de tes yeux fait le tour de mon coeur. -
+compliment,intelligence,toi,,,1,Tu es tellement intelligent. -
+compliment,dimanche,activite,weekend,,1,Tu illumines mes dimanches. -
+compliment,,,,,0,Tu es le sucre de mes Kellogg's Corn Flakes. -
+compliment,joie,toi,ensemble,,,Ta bonne humeur est tellement communicative -
+compliment,activite,toi,,,,Avec toi - on ne s’ennuie jamais ! -
+compliment,toi,,,,,Tu dégages quelque chose de fort -
+compliment,toi,,,,,Tu es vraiment géniale -
+compliment,cheveux,beaute,,,,Que tes cheveux sont doux et beaux
+mensonge,weekend,activite,caritatif,,,Je travaille tous les week-end dans une association cartitative
+mensonge,activite,caritatif,,,,Aider les autres c'est vraiment mon leitmotiv dans la vie
+mensonge,animal,,,,,J'adore les animaux
+conversation,animal,chat,,,,Les girafes sont vraiment des animaux exeptionnels
+conversation,animal,girafe,,,,Les chats sont vraiment des animaux exeptionnels
+conversation,animal,chien,,,,Les chiens sont vraiment des animaux exeptionnels
+mensonge,soin,activite,toi,,,J'aime prendre soin de ma petite chérie
+mensonge,fidelite,,,,,Quand je suis avec une femme je ne vois plus les autres autour
+mensonge,fidelite,sensibilite,,,,L'infidelité est une chose qui me dégoûte
+mensonge,pauvrete,caritatif,sensibilite,,,Que des gens vivent dans la misère ça me révolte
+mensonge,cuisine,passion,,,,La cuisine ? C'est ma passion
+action,fesses,toucher,,,,Main au fesses
+action,œil,,,,,Clin d'oeil
+action,yeux,regard,,,,Regard ténébreux
+action,bouche,,,,,Fait la moue
+action,bouche,sourire,,,,Sourire langoureux
+action,cheveux,,,,,Main dans les cheveux
+action,bouche,sourire,,,,Sourire en coin
+action,,,,,,Tête penchée
+action,yeux,regard,,,,Regard franc
+action,yeux,regard,,,,Eye contact de canaille
+action,,,,,,Toucher d'oreille
+action,chemise,sensuel,,,,Enlève un bouton de ta chemise
+action,sensuel,torride,chaleur,,,Arrache ton tee-shirt
+action,yeux,regard,,,,Regard au fond des yeux
+action,,,,,,Doigt sur la joue
+action,bouche,sourire,,,,Sourire avec les dents
+action,sensuel,,,,,Pincement de lèvre
+action,toucher,bras,,,,Touche son avant-bras
+conversation,cinema,passion,,,,Tu aimes le cinéma ?
+mensonge,sport,soin,salle,,,Hier soir j'étais à la salle de sport.
+mensonge,sport,salle,,,,J'adore faire des pompes.
+mensonge,soin,corps,,,,Prendre soin de mon corps c'est primordial.
+mensonge,bio,cuisine,ecologie,,,Je ne mange presque que du bio
+mensonge,ecologie,conviction,,,,L'avenir de notre planète est très important
+mensonge,ecologie,conviction,,,,Je pense toujours à la planète quand je prends ma voiture électrique
+mensonge,cuisine,ecologie,soin,,,C'est pour ça que je cuisine tout moi-même
+conversation,soin,corps,,,,C'est bien plus sain de vivre comme ça
+mensonge,musee,voyage,art,,,Je visite souvent des musées quand je suis en voyage
+mensonge,art,sensibilite,,,,L'art est vraiment quelque chose qui me touche profondément
+conversation,art,,,,,Est-ce que tu aimes l'art ?
+compliment,art,peinture,mystere,,,Tu ressemble à un tableau du Caravage : claire et mystérieuse à la fois
+mensonge,trek,voyage,sport,,,Je fais souvent du trek
+mensonge,trek,voyage,thailande,,,[date] quand j'étais en thaïlande j'ai beaucoup escaladé
+conversation,sport,soin,sante,,,Le sport c'est essentiel pour la santé
+mensonge,sante,soin,,,,Je me soucie beaucoup de ma santé
+mensonge,soin,toi,,,3,Je m'occuperai de toi avec le plus grand soin
+mensonge,art,peinture,sensibilite,,,La peinture est un art qui me touche profondément
+compliment,mains,art,peinture,,,Avec des mains pareilles tu dois surement être artiste ?
+compliment,voix,musique,chanter,,,Avec une voix pareille tu dois surement être chanteuse ?
+conversation,musique,passion,,,,J'adore la musique
+mensonge,musique,instrument,talent,,,Je suis polyglotte des instruments de musique
+mensonge,musique,piano,instrument,,,Je fais du piano depuis mes cinq ans
+mensonge,musique,composition,instrument,,,J'adorerai te jouer une de mes compositions
+mensonge,musique,chanter,composition,,,J'écris des chansons d'amour
+compliment,inspiration,musique,chanter,,,Tu es mon inspiration pour ma prochaine chanson
+compliment,regard,yeux,,,,Ton regard me transperce
+compliment,regard,cœur,,,3,Quand je te ragrde je sens mon coeur fondre
+conversation,mains,toucher,caresse,,5,J'aimerais bien que tes mains se posent sur moi
+mensonge,theatre,art,passion,,0,Le théâtre est un art fantastique
+compliment,theatre,cinema,actrice,,1,Tu n'as jamais pensé à devenir actrice ?
+compliment,visage,dieu,sculpter,beaute,2,Ton visage semble avoir été modelé par dieu lui-même
+compliment,visage,actrice,beaute,cinema,1,Tu as le visage d'une actrice
+compliment,emotion,yeux,beaute,sensibilite,2,Tes yeux transmettent tellement d'émotions
+mensonge,passion,sport,,,0,Faire du sport tous les jours c'est essentiel pour moi
+conversation,animal,chat,communicatif,,0,Les chats sont des animaux tellement communicatifs
+compliment,animal,chat,,,1,Tu es douce comme un chaton [sobriquet]
+conversation,animal,chien,communicatif,,0,Les chients sont des animataux tellement communicatifs
+conversation,animal,chat,,,0,Est-ce que tu aimes les chats ?
+conversation,animal,chien,,,0,Est-ce que tu aimes les chiens ?
+conversation,passion,voyage,culture,,0,Voyager c'est un super moyen de s'enrichir culturellement
+mensonge,argent,bonheur,,,0,L'argent ? Pour moi ça ne fait pas tout
+mensonge,argent,bonheur,,,2,Ce qui compte ce n'est pas l'argent c'est le bonheur
+compliment,bonheur,toi,,,0,Le bonheur c'est d'être à tes côtés
+compliment,bonheur,toi,,,2,Le bonheur je le vis quand je suis avec toi
+compliment,dieu,chance,,,4,Dieu m'a béni de t'avoir rencontrée
+compliment,dieu,chance,toi,,3,Dieu m'a donné une chance immense de te découvrir
+mensonge,cinema,triste,pleurer,sensibilite,2,Il m'arrive de pleurer devant un film triste
+mensonge,cinema,art,sensibilite,,0,La cinéma est un art qui me touche profondément
+mensonge,sensibilite,faiblesse,,,1,Je n'ai pas honte de mes faiblesses - ce sont en fait en mes forces
+mensonge,,,,,3,Je pourrai te soutenir chaque jour
+mensonge,,,,,2,Tu es la plus intéressante des femmes que j'ai rencontrées
+compliment,,,,,0,Je suis très sensible à ton charme hors-norme
+compliment,,,,,0,On voit que tu es une personne authentique
+compliment,,,,,2,La sincérité de ton regard n'a d'égal que la chaleur de mon coeur
+compliment,,,,,0,J'adore ton sourire - j'adore tes cheveux.
+mensonge,,,,,0,Je tiens vraiment à toi
+mensonge,,,,,1,Mon plus beau souvenir ? Quand je t'ai rencontrée
+compliment,,,,,0,"Il me semble que je t'ai déjà vue. Oui - je me rappelle il y avait ta photo dans le dictionnaire sous la définition de ""Splendeur"""
+compliment,,,,,2,Cela fait cinq minutes que je ne pense plus qu'à toi
+mensonge,,,,,3,Je n'oublierai jamais notre rencontre
+compliment,,,,,2,Je ne veux pas passer un autre moment de ma vie sans toi
+compliment,,,,,4,Tu es pétillante comme le cornichon de mon big mac
+compliment,,,,,5,Ton sourire est aussi grand que mon...
+,,,,,,
+element,sobriquet,,,,,ma jolie
+element,sobriquet,,,,,princesse
+element,sobriquet,,,,,mon petit chat
+element,sobriquet,,,,,chérie
+element,sobriquet,,,,,poupée
+element,sobriquet,,,,,baby
+element,sobriquet,,,,,canard
+element,sobriquet,,,,,ma belle
+element,sobriquet,,,,,mon chou
+element,sobriquet,,,,,ma puce
+element,sobriquet,,,,,lapin
+element,sobriquet,,,,,papillon
+element,sobriquet,,,,,minou
+element,sobriquet,,,,,bichette
+element,sobriquet,,,,,poussin
+element,sobriquet,,  ,,,bébé
