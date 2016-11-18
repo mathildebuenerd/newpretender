@@ -18,7 +18,10 @@ var gestures = [];
 var compliments = [];
 var conversations = [];
 var lies = [];
+var sobriquets = [];
 var texte = document.getElementById('texte');
+
+var nbTouch = 0;
 
 var changeSubject = true;
 
@@ -50,8 +53,9 @@ function setup() {
 
 }
 
+// Fait les listes de phrases en fonction des catégories
 function makeGesturesList() {
-	// Gesture list
+	// Gestures list
 	for (var i=0; i<tableau.getRowCount(); i++) {
 		if(tab_categorie[i] == "action") {
 			gestures.push(tab_phrase[i]);
@@ -79,15 +83,18 @@ function makeGesturesList() {
 		}
 	}
 
+	// Sobriquets list
+	for (var i=0; i<tableau.getRowCount(); i++) {
+		if(tab_categorie[i] == "sobriquet") {
+			sobriquets.push(tab_phrase[i]);
+		}
+	}
+
 }
 
 function draw() {
 
-if(next%2 == 0) {
-	calcIntensity();
-	choisi(0,intensite);
-}
-	
+
 }
 
 
@@ -108,11 +115,14 @@ if (dice <= 1) {
 
 for (var i=0; i<tableau.getRowCount(); i++) {
 	if(tab_intensite[i]>=intensite) {
-	
+
 	}
 }
 
 next++;
+
+nbTouch++;
+print(nbTouch);
 
 }
 
@@ -157,6 +167,17 @@ if (temporaryList.length == 0) {
 
 	var index = int(random(temporaryList.length));
 	currentPhrase = temporaryList[index];
+	// print(sobriquets);
+	// print("sobriquet " + sobriquets[0]);
+
+	// si la phrase contient un [sobriquet]
+	// if (currentPhrase.search(/sobriquet/) != -1) {
+	// 	// print("sobriquet found " + currentPhrase);
+	// 	currentPhrase.replace('sobriquet', "dfshfhsdkjfdskjfhdksfhdshfjkdshfjkdshffffj");
+
+	// 	//sobriquets[int(random(sobriquets.length))]
+	// }
+
 	texte.innerHTML = currentPhrase;
 	for (var j=0; j<listType.length; j++) {
 		if (listType[j] == currentPhrase) {
@@ -192,7 +213,7 @@ function chooseSubject(listType, currentPhrase) {
 				} else if (subjects[j] == tab_mot_cle3[i]) {
 					index = j;
 					break;
-				}
+				} 
 			}
 		}
 	}
@@ -261,6 +282,7 @@ if (stillInTheList == false) {
 	//}
 	
 
+
 	say(listType);
 
 }
@@ -317,23 +339,12 @@ function windowResized() {
 
 var isItTouching = false;
 
-// function mousePressed() {
 
-// 	choisi();
-
-// }
 
 function test() {
 	print('helldddo');
 
 }
 
-
-document.body.addEventListener("touchstart", choisi, false);
-
-
-
-function keyPressed() {
-	changeSubject = true;
-}
+document.body.addEventListener("touchstart", choisi);
 

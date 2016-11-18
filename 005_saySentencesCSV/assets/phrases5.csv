@@ -7,16 +7,16 @@ mensonge,toi,ensemble,,,3,Je serai toujours l&#224; pour toi
 mensonge,toi,conquete,jour,promesse,4,Je te promets de te conqu&#233;rir chaque jour
 mensonge,confiance,sensibilite,fidelite,,3,Je te fais enti&#232;rement confiance
 mensonge,femmes,fidelite,autres,,0,Les autres femmes ? Je n'en ai que faire.
-mensonge,plaisir,toi,voir,,0,&#231;a me fait toujours plaisir de te voir
+mensonge,plaisir,toi,voir,,0,&#199;a me fait toujours plaisir de te voir
 compliment,langage,yeux,,,0,Le plus beau langage du monde est celui que tes yeux utilisent.
 compliment,maquillage,beaute,soin,,0,"Tu ne portes pas de maquillage. Really ?"","
 compliment,beaute,delit,,,0,"Si tu &#233;tais un d&#233;lit, tu serais un exc&#232;s de beaut&#233;.,"
-compliment,sport,soin,beaute,corps,0,"Ouaaaah, tu ne mentais pas quand tu disais aller &#224; la gym.,"
+compliment,sport,soin,beaute,corps,0,"Ouah, tu ne mentais pas quand tu disais aller &#224; la gym.,"
 compliment,beaute,peinture,art,,0,"Je pourrais te contempler &#233;ternellement.,"
 compliment,peinture,beaute,art,,0,"Rodin n'aurait pas fait mieux que Toi.,"
 compliment,passion,art,toi,inspiration,0,"Tu m'inspires.,"
 compliment,sensuel,voix,caresse,douceur,3,"Le son de ta voix me caresse jusqu'en bas du dos.,"
-compliment,yeux,cœur,sensibilite,beaute,1,"La courbe de tes yeux fait le tour de mon c&#156;ur.,"
+compliment,yeux,cœur,sensibilite,beaute,1,"La courbe de tes yeux fait le tour de mon coeur.,"
 compliment,intelligence,toi,lumiere,,0,Tu es tellement intelligente
 compliment,dimanche,activite,weekend,lumiere,0,"Tu illumines mes dimanches.,"
 compliment,sucre,go&#251;t,nourriture,douceur,0,"Tu es le sucre de mes Kellogg's Corn Flakes.,"
@@ -78,7 +78,7 @@ mensonge,musique,composition,instrument,,0,J'adorerai te jouer une de mes compos
 mensonge,musique,chanter,composition,,0,J'&#233;cris des chansons d'amour
 compliment,inspiration,musique,chanter,,0,Tu es mon inspiration pour ma prochaine chanson
 compliment,regard,yeux,,,0,Ton regard me transperce
-compliment,regard,cœur,,,3,Quand je te ragrde je sens mon c&#156;ur fondre
+compliment,regard,cœur,,,3,Quand je te ragrde je sens mon coeur fondre
 conversation,mains,toucher,caresse,,5,J'aimerais bien que tes mains se posent sur moi
 mensonge,theatre,art,passion,,0,Le th&#233;âtre est un art fantastique
 compliment,theatre,cinema,actrice,,1,Tu n'as jamais pens&#233; &#224; devenir actrice ?
@@ -92,7 +92,7 @@ conversation,animal,chien,communicatif,,0,Les chiens sont des animaux tellement 
 conversation,animal,chat,,,0,Est-ce que tu aimes les chats ?
 conversation,animal,chien,,,0,Est-ce que tu aimes les chiens ?
 conversation,passion,voyage,culture,,0,Voyager c'est un super moyen de s'enrichir culturellement
-mensonge,argent,bonheur,,,0,L'argent ? Pour moi &#231;a ne fait pas tout
+mensonge,argent,bonheur,,,0,L'argent ? Pour moi &#199;a ne fait pas tout
 mensonge,argent,bonheur,,,2,Ce qui compte ce n'est pas l'argent c'est le bonheur
 compliment,bonheur,toi,,,0,Le bonheur c'est d'&#234;tre &#224; tes côt&#233;s
 compliment,bonheur,toi,,,2,Le bonheur je le vis quand je suis avec toi
@@ -105,7 +105,7 @@ mensonge,soutien,force,,,3,Je pourrai te soutenir chaque jour
 mensonge,toi,,,,2,Tu es la plus int&#233;ressante des femmes que j'ai rencontr&#233;es
 compliment,charme,toi,sensuel,,0,Je suis tr&#232;s sensible &#224; ton charme hors-norme
 compliment,authentique,,,,0,On voit que tu es une personne authentique
-compliment,sincere,regard,cœur,chaleur,2,La sinc&#233;rit&#233; de ton regard n'a d'&#233;gal que la chaleur de mon c&#156;ur
+compliment,sincere,regard,cœur,chaleur,2,La sinc&#233;rit&#233; de ton regard n'a d'&#233;gal que la chaleur de mon coeur
 compliment,sourire,cheveux,beaute,,0,"J'adore ton sourire, j'adore tes cheveux."
 mensonge,toi,sensibilite,,,0,Je tiens vraiment &#224; toi
 mensonge,souvenir,rencontre,,,1,Mon plus beau souvenir ? Quand je t'ai rencontr&#233;e
@@ -124,9 +124,9 @@ compliment,beaute,passion,,,,Beaut&#233; fatale quand j'te vois je m'&#233;tale.
 compliment,sourire,sensibilite,,,,[sobriquet] quand je vois ton sourire je me sens faillir
 conversation,vetement,mode,sexe,,,Tes v&#234;tements doivent partir mais toi tu peux rester.
 conversation,langue,bisou,muscle,sport,,Tu savais que la langue &#233;tait un muscle ? On fait un bras de fer ?
-mensonge,cœur,charme,,,,"D&#233;sol&#233;, je ne t'ai pas entendue, car mon c&#156;ur bat trop fort pour toi"
+mensonge,cœur,charme,,,,"D&#233;sol&#233;, je ne t'ai pas entendue, pas mon cœur bat trop fort pour toi"
 conversation,mordre,sensuel,chien,,,Je ne mords pas tu sais... Sauf si on me le demande
-compliment,malin,toi,,,,"Tu n'es pas bien maline, hein? J'aime &#231;a chez une femme."
+compliment,malin,toi,,,,"Tu n'es pas bien maline, hein? J'aime &#199;a chez une femme."
 conversation,fleur,rose,sexe,,,Je crois que l'amour est une rose et j'ai l'&#233;pine qui est tr&#232;s tr&#232;s grosse.
 conversation,amerique,argent,,,,"Si en Am&#233;rique on fait bling-bling, avec moi on fait bang-bang"
 conversation,,,,,,"Dieu m'a tout donn&#233;, sauf ton num&#233;ro"
@@ -138,7 +138,7 @@ conversation,,,,,,Quand ma soeur &#233;tait petite je l'aidais toujours pour ses
 conversation,,,,,,Je donne toujours mes vieilles affaires &#224; des associations caritatives
 conversation,,,,,,T'aider pour ton d&#233;m&#233;nagement ? Biens&#251;r que je peux
 compliment,,,,,,Tu as un tour de taille fantastique!
-compliment,,,,,,&#231;a se voit que tu prends soin de ton corps
+compliment,,,,,,&#199;a se voit que tu prends soin de ton corps
 conversation,,,,,,Tu ne fais pas de r&#233;gime ? S&#233;rieusement ?
 conversation,,,,,,Tu n'a jamais pens&#233; &#224; devenir mannequin ?
 conversation,,,,,,Que tes v&#234;tements sont anticonformistes!
@@ -147,19 +147,19 @@ conversation,,,,,,Est-ce que tu aimes voyager ?
 conversation,,,,,,Comment une si belle femme que toi peut ne pas &#234;tre accompagn&#233;e ?
 conversation,mignon,chat,animal,sensibilite,,Qu'ils sont mignons les petits chats !
 compliment,chat,animal,mignon,beaute,,Tu es belle comme un chaton
-element,sobriquet,,,,,ma jolie
-element,sobriquet,,,,,princesse
-element,sobriquet,,,,,mon petit chat
-element,sobriquet,,,,,ch&#233;rie
-element,sobriquet,,,,,poup&#233;e
-element,sobriquet,,,,,baby
-element,sobriquet,,,,,canard
-element,sobriquet,,,,,ma belle
-element,sobriquet,,,,,mon chou
-element,sobriquet,,,,,ma puce
-element,sobriquet,,,,,lapin
-element,sobriquet,,,,,papillon
-element,sobriquet,,,,,minou
-element,sobriquet,,,,,bichette
-element,sobriquet,,,,,poussin
-element,sobriquet,,  ,,,b&#233;b&#233;
+sobriquet,,,,,,ma jolie
+sobriquet,,,,,,princesse
+sobriquet,,,,,,mon petit chat
+sobriquet,,,,,,ch&#233;rie
+sobriquet,,,,,,poup&#233;e
+sobriquet,,,,,,baby
+sobriquet,,,,,,canard
+sobriquet,,,,,,ma belle
+sobriquet,,,,,,mon chou
+sobriquet,,,,,,ma puce
+sobriquet,,,,,,lapin
+sobriquet,,,,,,papillon
+sobriquet,,,,,,minou
+sobriquet,,,,,,bichette
+sobriquet,,,,,,poussin
+sobriquet,,,  ,,,b&#233;b&#233;
