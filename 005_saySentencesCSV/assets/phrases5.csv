@@ -19,7 +19,7 @@ compliment,sensuel,voix,caresse,douceur,3,"Le son de ta voix me caresse jusqu'en
 compliment,yeux,cœur,sensibilite,beaute,1,"La courbe de tes yeux fait le tour de mon coeur.,"
 compliment,intelligence,toi,lumiere,,0,Tu es tellement intelligente
 compliment,dimanche,activite,weekend,lumiere,0,"Tu illumines mes dimanches.,"
-compliment,sucre,go&#251;t,nourriture,douceur,0,"Tu es le sucre de mes Kellogg's Corn Flakes.,"
+compliment,sucre,goût,nourriture,douceur,0,"Tu es le sucre de mes Kellogg's Corn Flakes.,"
 compliment,joie,toi,ensemble,,0,"Ta bonne humeur est tellement communicative,"
 compliment,activite,toi,super,,0,"Avec toi, on ne s’ennuie jamais !,"
 compliment,toi,odeur,,,0,"Tu d&#233;gages quelque chose de fort,"
@@ -28,11 +28,11 @@ compliment,cheveux,beaute,douceur,,0,Que tes cheveux sont doux et beaux
 mensonge,weekend,activite,caritatif,,0,Je travaille tous les week-end dans une association cartitative
 mensonge,activite,caritatif,,,0,Aider les autres c'est vraiment mon leitmotiv dans la vie
 mensonge,animal,,,,0,J'adore les animaux
-conversation,animal,chat,,,0,Les girafes sont vraiment des animaux exeptionnels
-conversation,animal,girafe,,,0,Les chats sont vraiment des animaux exeptionnels
+conversation,animal,chat,,,0,Les girafes sont vraiment des animaux exceptionnels
+conversation,animal,girafe,,,0,Les chats sont vraiment des animaux exceptionnels
 compliment,chat,beaute,,,,Tu es aussi mignonne qu'un chaton
 compliment,chat,cheveux,poils,,,Le poil de tes cheveux est si soyeux
-conversation,animal,chien,,,0,Les chiens sont vraiment des animaux exeptionnels
+conversation,animal,chien,,,0,Les chiens sont vraiment des animaux exceptionnels
 mensonge,soin,activite,toi,,2,J'aime prendre soin de ma petite ch&#233;rie
 mensonge,fidelite,,,,2,Quand je suis avec une femme je ne vois plus les autres autour
 mensonge,fidelite,sensibilite,,,0,L'infidelit&#233; est une chose qui me d&#233;go&#251;te
@@ -54,7 +54,7 @@ action,yeux,regard,,,1,Regard au fond des yeux
 action,,,,,0,Doigt sur la joue
 action,bouche,sourire,,,0,Sourire avec les dents
 action,sensuel,,,,2,Pincement de l&#232;vre
-action,toucher,bras,,,2,Touche son avant-bras
+action,toucher,bras,peau,,2,Touche son avant-bras
 conversation,cinema,passion,,,0,Tu aimes le cin&#233;ma ?
 mensonge,sport,soin,salle,muscle,0,Hier soir j'&#233;tais &#224; la salle de sport.
 mensonge,sport,salle,muscle,,0,J'adore faire des pompes.
@@ -63,10 +63,10 @@ mensonge,musee,voyage,art,,0,Je visite souvent des mus&#233;es quand je suis en 
 mensonge,art,sensibilite,,,0,L'art est vraiment quelque chose qui me touche profond&#233;ment
 conversation,art,,,,0,Est-ce que tu aimes l'art ?
 compliment,art,peinture,mystere,,0,Tu ressemble &#224; un tableau du Caravage : claire et myst&#233;rieuse &#224; la fois
-mensonge,trek,voyage,sport,,0,Je fais souvent du trek
-mensonge,trek,voyage,thailande,,0,[date] quand j'&#233;tais en thaïlande j'ai beaucoup escalad&#233;
+mensonge,emotion,muscle,sport,,0,Je suis un grand sportif
+conversation,chemise,vetement,,,0,Quelle jolie chemise !
 conversation,sport,soin,sante,,0,Le sport c'est essentiel pour la sant&#233;
-mensonge,sante,soin,,,0,Je me soucie beaucoup de ma sant&#233;
+conversation,douceur,peau,,,2,Ta peau a l'air si douce
 mensonge,soin,toi,,,3,Je m'occuperai de toi avec le plus grand soin
 mensonge,art,peinture,sensibilite,,0,La peinture est un art qui me touche profond&#233;ment
 compliment,mains,art,peinture,,0,Avec des mains pareilles tu dois surement &#234;tre artiste ?
@@ -80,7 +80,7 @@ compliment,inspiration,musique,chanter,,0,Tu es mon inspiration pour ma prochain
 compliment,regard,yeux,,,0,Ton regard me transperce
 compliment,regard,cœur,,,3,Quand je te ragrde je sens mon coeur fondre
 conversation,mains,toucher,caresse,,5,J'aimerais bien que tes mains se posent sur moi
-mensonge,theatre,art,passion,,0,Le th&#233;âtre est un art fantastique
+mensonge,theatre,art,passion,,0,Le th&#233; &#226;tre est un art fantastique
 compliment,theatre,cinema,actrice,,1,Tu n'as jamais pens&#233; &#224; devenir actrice ?
 compliment,visage,dieu,sculpter,beaute,2,Ton visage semble avoir &#233;t&#233; model&#233; par dieu lui-m&#234;me
 compliment,visage,actrice,beaute,cinema,1,Tu as le visage d'une actrice
@@ -94,12 +94,12 @@ conversation,animal,chien,,,0,Est-ce que tu aimes les chiens ?
 conversation,passion,voyage,culture,,0,Voyager c'est un super moyen de s'enrichir culturellement
 mensonge,argent,bonheur,,,0,L'argent ? Pour moi &#199;a ne fait pas tout
 mensonge,argent,bonheur,,,2,Ce qui compte ce n'est pas l'argent c'est le bonheur
-compliment,bonheur,toi,,,0,Le bonheur c'est d'&#234;tre &#224; tes côt&#233;s
+compliment,bonheur,toi,,,0,Le bonheur c'est d'&#234;tre &#224; tes c&#244;t&#233;s
 compliment,bonheur,toi,,,2,Le bonheur je le vis quand je suis avec toi
 compliment,dieu,chance,,,4,Dieu m'a b&#233;ni de t'avoir rencontr&#233;e
 compliment,dieu,chance,toi,,3,Dieu m'a donn&#233; une chance immense de te d&#233;couvrir
 mensonge,cinema,triste,pleurer,sensibilite,2,Il m'arrive de pleurer devant un film triste
-mensonge,cinema,art,sensibilite,,0,La cin&#233;ma est un art qui me touche profond&#233;ment
+mensonge,cinema,art,sensibilite,,0,Le cin&#233;ma est un art qui me touche profond&#233;ment
 mensonge,sensibilite,faiblesse,force,aveu,1,"Je n'ai pas honte de mes faiblesses, ce sont en fait en mes forces"
 mensonge,soutien,force,,,3,Je pourrai te soutenir chaque jour
 mensonge,toi,,,,2,Tu es la plus int&#233;ressante des femmes que j'ai rencontr&#233;es
@@ -116,6 +116,9 @@ mensonge,vie,activite,,,2,Je ne veux pas passer un autre moment de ma vie sans t
 compliment,amerique,hamburger,nourriture,petillante,4,Tu es p&#233;tillante comme le cornichon de mon big mac
 compliment,sourire,sexe,grand,,5,Ton sourire est aussi grand que mon...
 compliment,lune,etoile,ciel,,,"Au clair de lune, tu es mon &#233;toile [sobriquet]"
+conversation,voyage,jeunesse,,,,J'ai visité bien des pays durant ma jeunesse
+mensonge,futur,imaginer,beaute,,,Le futur me semble si beau quand je m'imagine avec toi
+conversation,amerique,vie,,,,J'aime tellement la vision de la vie des américains
 compliment,jour,soleil,,,,"Chaque jour, tu es mon soleil [sobriquet]"
 compliment,communicatif,toi,,,,"Quand je suis avec toi [sobriquet], tu es ma bonne humeur"
 compliment,sosie,futur,beaute,,,Tu es le sosie de ma future copine
@@ -128,25 +131,36 @@ mensonge,cœur,charme,,,,"D&#233;sol&#233;, je ne t'ai pas entendue, pas mon cœur
 conversation,mordre,sensuel,chien,,,Je ne mords pas tu sais... Sauf si on me le demande
 compliment,malin,toi,,,,"Tu n'es pas bien maline, hein? J'aime &#199;a chez une femme."
 conversation,fleur,rose,sexe,,,Je crois que l'amour est une rose et j'ai l'&#233;pine qui est tr&#232;s tr&#232;s grosse.
-conversation,amerique,argent,,,,"Si en Am&#233;rique on fait bling-bling, avec moi on fait bang-bang"
-conversation,,,,,,"Dieu m'a tout donn&#233;, sauf ton num&#233;ro"
-compliment,,,,,,Maintenant que je te vois je sais qui est responsable du r&#233;chauffement climatique. 
-conversation,,,,,,On m’a toujours dit de suivre mes r&#234;ves alors ce soir je te suis.
-conversation,,,,,,C’est ton plus beau r&#234;ve que je veux r&#233;enchanter [sobriquet]
-conversation,,,,,,Tu as l'air triste [sobriquet]
-conversation,,,,,,Quand ma soeur &#233;tait petite je l'aidais toujours pour ses devoirs
-conversation,,,,,,Je donne toujours mes vieilles affaires &#224; des associations caritatives
-conversation,,,,,,T'aider pour ton d&#233;m&#233;nagement ? Biens&#251;r que je peux
-compliment,,,,,,Tu as un tour de taille fantastique!
-compliment,,,,,,&#199;a se voit que tu prends soin de ton corps
-conversation,,,,,,Tu ne fais pas de r&#233;gime ? S&#233;rieusement ?
-conversation,,,,,,Tu n'a jamais pens&#233; &#224; devenir mannequin ?
-conversation,,,,,,Que tes v&#234;tements sont anticonformistes!
-conversation,,,,,,Qu'as-tu fait cet &#233;t&#233; ?
-conversation,,,,,,Est-ce que tu aimes voyager ?
-conversation,,,,,,Comment une si belle femme que toi peut ne pas &#234;tre accompagn&#233;e ?
+conversation,amerique,argent,,,,"Si en Am&#233;rique on fait bling-bling, avec moi on fait bang bang"
+conversation,numero,dieu,telephone,,,"Dieu m'a tout donn&#233;, sauf ton num&#233;ro"
+compliment,chaleur,sensuel,ecologie,,,Maintenant que je te vois je sais qui est responsable du r&#233;chauffement climatique. 
+conversation,reve,,,,,On m’a toujours dit de suivre mes r&#234;ves alors ce soir je te suis.
+conversation,reve,magie,,,,C’est ton plus beau r&#234;ve que je veux r&#233;enchanter [sobriquet]
+conversation,triste,,,,,Tu as l'air triste [sobriquet]
+conversation,demenagement,muscle,,,,T'aider pour ton d&#233;m&#233;nagement ? Biens&#251;r que je peux
+compliment,corps,mince,,,,Tu as un tour de taille fantastique!
+compliment,corps,soin,,,,&#199;a se voit que tu prends soin de ton corps
+conversation,corps,mince,regime,,,Tu ne fais pas de r&#233;gime ? S&#233;rieusement ?
+conversation,corps,mannequin,,,,Tu n'a jamais pens&#233; &#224; devenir mannequin ?
+conversation,vetement,original,,,,Que tes v&#234;tements sont anticonformistes!
+conversation,ete,activite,,,,Qu'as-tu fait cet &#233;t&#233; ?
+conversation,voyage,activite,,,,Est-ce que tu aimes voyager ?
+conversation,beaute,,,,,Comment une si belle femme que toi peut ne pas &#234;tre accompagn&#233;e ?
 conversation,mignon,chat,animal,sensibilite,,Qu'ils sont mignons les petits chats !
 compliment,chat,animal,mignon,beaute,,Tu es belle comme un chaton
+conversation,nourriture,manger,,,,Tu viens manger avec moi après ?
+conversation,nourriture,manger,,,5,J'ai envie de te manger
+compliment,nourriture,manger,croquer,,1,Tu es à croquer
+mensonge,danse,fete,,,,On m'a toujours dit que je dansais comme un dieu
+mensonge,musique,rythme,danse,,,"Pour un musicien comme moi, le sens du rythme c'est inné"
+conversation,danse,danse,,,,Tu veux danser avec moi ?
+conversation,danse,sensuel,,,,On fait un peu de collé-serré avant que je t'envoie valser ?
+compliment,fleur,beaute,,,,Tu es belle telle une fleur qui vient d'éclore
+conversation,plage,mer,nu,sensuel,,"En ce moment je nous imagine tous les deux, nus sur la plage"
+conversation,dehors,accompagner,cacher,,,Que penses-tu de m'accompagner dehors ?
+,,,,,,
+,,,,,,
+,,,,,,
 sobriquet,,,,,,ma jolie
 sobriquet,,,,,,princesse
 sobriquet,,,,,,mon petit chat

@@ -90,6 +90,8 @@ function makeGesturesList() {
 		}
 	}
 
+	print("compliments " + compliments.length + " convers " + conversations.length + " mensonge " + lies.length);
+
 }
 
 function draw() {
@@ -100,6 +102,7 @@ function draw() {
 
 
 function choisi() {
+print(subjects);
 
 var dice = int(random(15));
 
@@ -197,7 +200,7 @@ function chooseSubject(listType, currentPhrase) {
 	var index = 300;
 
 // Prend la dernière phrase, cherche cette phrase dans la liste originale et regarde ses mots clés
-//Si l'un des mots clés est dans la subjects liste, choisi-le comme subject
+// Si l'un des mots clés est dans la subjects liste, choisi-le comme subject
 	for (var i=0; i<tableau.getRowCount(); i++) {
 		if (currentPhrase == tab_phrase[i]) {
 			for(var j=0; j<subjects.length; j++) {
@@ -218,6 +221,7 @@ function chooseSubject(listType, currentPhrase) {
 		}
 	}
 
+// si aucun des mots clés de la dernière phrase n'est trouvé dans la liste, choisi un sujet au hasard
 if (index == 300) {
 	index = int(random(subjects.length));
 }
@@ -226,7 +230,8 @@ if (index == 300) {
 
 	var stillInTheList = false;
 
-// Vérifie si le sujet est encore associé à une des phrases dans la liste des compliments, ou la liste des conversations ou la liste des mensonges
+// Vérifie si le sujet est encore associé à une des phrases dans la liste des compliments, ou la liste des conversations ou 
+// la liste des mensonges
 	for (var k=0; k<compliments.length; k++) {
 		for(var kBis=0; kBis<tableau.getRowCount(); kBis++) {
 			if (compliments[k] == tab_phrase[kBis]) {
@@ -277,9 +282,9 @@ if (stillInTheList == false) {
 	}
 }
 
-	//if(stillInTheList) {
+	// if(stillInTheList == false) {
 		subjects.splice(index, 1);
-	//}
+	// }
 	
 
 
@@ -291,6 +296,7 @@ if (stillInTheList == false) {
 
 function makeSubjectsList() {
 
+//récupère tous les mots-cles des 4 colonnes
 	for (var h=0; h<tab_mot_cle0.length; h++) {
 		mots_cle.push(tab_mot_cle0[h]);
 		mots_cle.push(tab_mot_cle1[h]);
@@ -302,11 +308,13 @@ function makeSubjectsList() {
 
 	for(var i=0; i<mots_cle.length; i++) {
 		for (var j=0; j<subjects.length; j++) {
+			// check si un mot clé est déjà dans la liste ou s'il est vide
 			if (mots_cle[i] == subjects[j] || mots_cle[i] == '') {
 				alreadyIn = true;
 			}
 		}
 		
+		// si le mot clé n'est pas dans la liste on l'ajoute, sinon on ne l'ajoute pas
 		if (alreadyIn == false) {
 			subjects.push(mots_cle[i]);
 		} else {
