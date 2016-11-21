@@ -26,6 +26,9 @@ var nbTouch = 0;
 var changeSubject = true;
 
 
+
+var touched = 0;
+
 function preload() {
   tableau = loadTable("assets/phrases5.csv", "csv", "header");
 }
@@ -50,8 +53,9 @@ function setup() {
   makeSubjectsList();
   makeGesturesList();
 
-
 }
+
+
 
 // Fait les listes de phrases en fonction des catégories
 function makeGesturesList() {
@@ -96,36 +100,39 @@ function makeGesturesList() {
 
 function draw() {
 
+	if (subjects.length == 0) {
+		isFinished = true;
+	}
+
 
 }
 
 
 
 function choisi() {
-print(subjects);
 
-var dice = int(random(15));
+	var dice = int(random(15));
 
-if (dice <= 1) {
-	sayGesture();
-} else if (dice > 1 && dice <= 4) {
-	say(compliments);
-} else if(dice > 4 && dice <=8)  {
-	say(conversations);
-} else {
-	say(lies);
-}
-
-for (var i=0; i<tableau.getRowCount(); i++) {
-	if(tab_intensite[i]>=intensite) {
-
+	if (dice <= 1) {
+		sayGesture();
+	} else if (dice > 1 && dice <= 4) {
+		say(compliments);
+	} else if(dice > 4 && dice <=8)  {
+		say(conversations);
+	} else {
+		say(lies);
 	}
-}
 
-next++;
+	for (var i=0; i<tableau.getRowCount(); i++) {
+		if(tab_intensite[i]>=intensite) {
 
-nbTouch++;
-print(nbTouch);
+		}
+	}
+
+	next++;
+
+	nbTouch++;
+	// print(nbTouch);
 
 }
 
@@ -145,50 +152,50 @@ function say(listType) {
 	var temporaryList = [];
 
 
-for (var h=0; h<listType.length; h++) {
+	for (var h=0; h<listType.length; h++) {
 
-	for (var i=0; i<tableau.getRowCount(); i++) {
+		for (var i=0; i<tableau.getRowCount(); i++) {
 
-// si la phrase est dans la liste des compliments
-// et que l'un des mots clés est égal au sujet
-		if (listType[h] == tab_phrase[i] &&
-			(subject == tab_mot_cle0[i] ||
-			subject == tab_mot_cle1[i] ||
-			subject == tab_mot_cle2[i] ||
-			subject == tab_mot_cle3[i])) 
-			{
-				temporaryList.push(listType[h]);
-			}
-	}
-}
-
-// Si aucun mot clé ne correspond au sujet, choisi un autre sujet
-// Sinon display une phrase parmi les phrases possibles
-if (temporaryList.length == 0) {
-	chooseSubject(listType, currentPhrase);
-} else {
-
-	var index = int(random(temporaryList.length));
-	currentPhrase = temporaryList[index];
-	// print(sobriquets);
-	// print("sobriquet " + sobriquets[0]);
-
-	// si la phrase contient un [sobriquet]
-	// if (currentPhrase.search(/sobriquet/) != -1) {
-	// 	// print("sobriquet found " + currentPhrase);
-	// 	currentPhrase.replace('sobriquet', "dfshfhsdkjfdskjfhdksfhdshfjkdshfjkdshffffj");
-
-	// 	//sobriquets[int(random(sobriquets.length))]
-	// }
-
-	texte.innerHTML = currentPhrase;
-	for (var j=0; j<listType.length; j++) {
-		if (listType[j] == currentPhrase) {
-			listType.splice(j, 1);
-		}		
+	// si la phrase est dans la liste des compliments
+	// et que l'un des mots clés est égal au sujet
+			if (listType[h] == tab_phrase[i] &&
+				(subject == tab_mot_cle0[i] ||
+				subject == tab_mot_cle1[i] ||
+				subject == tab_mot_cle2[i] ||
+				subject == tab_mot_cle3[i])) 
+				{
+					temporaryList.push(listType[h]);
+				}
+		}
 	}
 
-}
+	// Si aucun mot clé ne correspond au sujet, choisi un autre sujet
+	// Sinon display une phrase parmi les phrases possibles
+	if (temporaryList.length == 0) {
+		chooseSubject(listType, currentPhrase);
+	} else {
+
+		var index = int(random(temporaryList.length));
+		currentPhrase = temporaryList[index];
+		// print(sobriquets);
+		// print("sobriquet " + sobriquets[0]);
+
+		// si la phrase contient un [sobriquet]
+		// if (currentPhrase.search(/sobriquet/) != -1) {
+		// 	// print("sobriquet found " + currentPhrase);
+		// 	currentPhrase.replace('sobriquet', "dfshfhsdkjfdskjfhdksfhdshfjkdshfjkdshffffj");
+
+		// 	//sobriquets[int(random(sobriquets.length))]
+		// }
+
+		texte.innerHTML = currentPhrase;
+		for (var j=0; j<listType.length; j++) {
+			if (listType[j] == currentPhrase) {
+				listType.splice(j, 1);
+			}		
+		}
+
+	}
 
 	//print(subject);
 
@@ -199,96 +206,96 @@ function chooseSubject(listType, currentPhrase) {
 
 	var index = 300;
 
-// Prend la dernière phrase, cherche cette phrase dans la liste originale et regarde ses mots clés
-// Si l'un des mots clés est dans la subjects liste, choisi-le comme subject
-	for (var i=0; i<tableau.getRowCount(); i++) {
-		if (currentPhrase == tab_phrase[i]) {
-			for(var j=0; j<subjects.length; j++) {
-				if(subjects[j] == tab_mot_cle0[i]) {
-					index = j;
-					break;
-				} else if (subjects[j] == tab_mot_cle1[i]) {
-					index = j;
-					break;
-				} else if (subjects[j] == tab_mot_cle2[i]) {
-					index = j;
-					break;
-				} else if (subjects[j] == tab_mot_cle3[i]) {
-					index = j;
-					break;
-				} 
-			}
-		}
-	}
-
-// si aucun des mots clés de la dernière phrase n'est trouvé dans la liste, choisi un sujet au hasard
-if (index == 300) {
-	index = int(random(subjects.length));
-}
-	
-	subject = subjects[index];
-
-	var stillInTheList = false;
-
-// Vérifie si le sujet est encore associé à une des phrases dans la liste des compliments, ou la liste des conversations ou 
-// la liste des mensonges
-	for (var k=0; k<compliments.length; k++) {
-		for(var kBis=0; kBis<tableau.getRowCount(); kBis++) {
-			if (compliments[k] == tab_phrase[kBis]) {
-				if (subject == tab_mot_cle0[kBis] ||
-					subject == tab_mot_cle1[kBis] ||
-					subject == tab_mot_cle2[kBis] ||
-					subject == tab_mot_cle3[kBis]) {
-		
-					stillInTheList = true;
-					break;
+	// Prend la dernière phrase, cherche cette phrase dans la liste originale et regarde ses mots clés
+	// Si l'un des mots clés est dans la subjects liste, choisi-le comme subject
+		for (var i=0; i<tableau.getRowCount(); i++) {
+			if (currentPhrase == tab_phrase[i]) {
+				for(var j=0; j<subjects.length; j++) {
+					if(subjects[j] == tab_mot_cle0[i]) {
+						index = j;
+						break;
+					} else if (subjects[j] == tab_mot_cle1[i]) {
+						index = j;
+						break;
+					} else if (subjects[j] == tab_mot_cle2[i]) {
+						index = j;
+						break;
+					} else if (subjects[j] == tab_mot_cle3[i]) {
+						index = j;
+						break;
+					} 
 				}
 			}
 		}
+
+	// si aucun des mots clés de la dernière phrase n'est trouvé dans la liste, choisi un sujet au hasard
+	if (index == 300) {
+		index = int(random(subjects.length));
 	}
-
-
-if (stillInTheList == false) {
-	for (var l=0; l<conversations.length; l++) {
-		for(var lBis=0; lBis<tableau.getRowCount(); lBis++) {
-			if (conversations[l] == tab_phrase[lBis]) {
-				if (subject == tab_mot_cle0[lBis] ||
-					subject == tab_mot_cle1[lBis] ||
-					subject == tab_mot_cle2[lBis] ||
-					subject == tab_mot_cle3[lBis]) {
 		
-					stillInTheList = true;
-					break;
-				}
-			}
-		}
-	}
-}
+		subject = subjects[index];
 
-if (stillInTheList == false) {
-	for (var m=0; m<lies.length; m++) {
-		for(var mBis=0; mBis<tableau.getRowCount(); mBis++) {
-			if (lies[m] == tab_phrase[mBis]) {
-				if (subject == tab_mot_cle0[mBis] ||
-					subject == tab_mot_cle1[mBis] ||
-					subject == tab_mot_cle2[mBis] ||
-					subject == tab_mot_cle3[mBis]) {
+		var stillInTheList = false;
+
+	// Vérifie si le sujet est encore associé à une des phrases dans la liste des compliments, ou la liste des conversations ou 
+	// la liste des mensonges
+		for (var k=0; k<compliments.length; k++) {
+			for(var kBis=0; kBis<tableau.getRowCount(); kBis++) {
+				if (compliments[k] == tab_phrase[kBis]) {
+					if (subject == tab_mot_cle0[kBis] ||
+						subject == tab_mot_cle1[kBis] ||
+						subject == tab_mot_cle2[kBis] ||
+						subject == tab_mot_cle3[kBis]) {
 			
-					stillInTheList = true;
-					break;
+						stillInTheList = true;
+						break;
+					}
+				}
+			}
+		}
+
+
+	if (stillInTheList == false) {
+		for (var l=0; l<conversations.length; l++) {
+			for(var lBis=0; lBis<tableau.getRowCount(); lBis++) {
+				if (conversations[l] == tab_phrase[lBis]) {
+					if (subject == tab_mot_cle0[lBis] ||
+						subject == tab_mot_cle1[lBis] ||
+						subject == tab_mot_cle2[lBis] ||
+						subject == tab_mot_cle3[lBis]) {
+			
+						stillInTheList = true;
+						break;
+					}
 				}
 			}
 		}
 	}
-}
 
-	// if(stillInTheList == false) {
-		subjects.splice(index, 1);
-	// }
-	
+	if (stillInTheList == false) {
+		for (var m=0; m<lies.length; m++) {
+			for(var mBis=0; mBis<tableau.getRowCount(); mBis++) {
+				if (lies[m] == tab_phrase[mBis]) {
+					if (subject == tab_mot_cle0[mBis] ||
+						subject == tab_mot_cle1[mBis] ||
+						subject == tab_mot_cle2[mBis] ||
+						subject == tab_mot_cle3[mBis]) {
+				
+						stillInTheList = true;
+						break;
+					}
+				}
+			}
+		}
+	}
+
+		// if(stillInTheList == false) {
+			subjects.splice(index, 1);
+		// }
+		
 
 
-	say(listType);
+		say(listType);
 
 }
 
@@ -296,7 +303,7 @@ if (stillInTheList == false) {
 
 function makeSubjectsList() {
 
-//récupère tous les mots-cles des 4 colonnes
+	//récupère tous les mots-cles des 4 colonnes
 	for (var h=0; h<tab_mot_cle0.length; h++) {
 		mots_cle.push(tab_mot_cle0[h]);
 		mots_cle.push(tab_mot_cle1[h]);
@@ -345,14 +352,7 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 
+
+
 var isItTouching = false;
-
-
-
-function test() {
-	print('helldddo');
-
-}
-
-document.body.addEventListener("touchstart", choisi);
 
