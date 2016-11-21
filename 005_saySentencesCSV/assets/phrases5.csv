@@ -29,6 +29,7 @@ mensonge,weekend,activite,caritatif,,0,Je travaille tous les week-end dans une a
 mensonge,activite,caritatif,,,0,Aider les autres c'est vraiment mon leitmotiv dans la vie
 mensonge,animal,,,,0,J'adore les animaux
 conversation,animal,chat,,,0,Les girafes sont vraiment des animaux exceptionnels
+conversation,coeur,,,,2,Tu fais bondir mon p'tit coeur
 conversation,animal,girafe,,,0,Les chats sont vraiment des animaux exceptionnels
 compliment,chat,beaute,,,,Tu es aussi mignonne qu'un chaton
 compliment,chat,cheveux,poils,,,Le poil de tes cheveux est si soyeux
@@ -87,7 +88,7 @@ compliment,visage,actrice,beaute,cinema,1,Tu as le visage d'une actrice
 compliment,emotion,yeux,beaute,sensibilite,2,Tes yeux transmettent tellement d'&#233;motions
 mensonge,passion,sport,,,0,Faire du sport tous les jours c'est essentiel pour moi
 conversation,animal,chat,communicatif,,0,Les chats sont des animaux tellement communicatifs
-compliment,animal,chat,,,1,Tu es douce comme un chaton [sobriquet]
+compliment,animal,chat,,,1,Tu es douce comme un chaton ma jolie
 conversation,animal,chien,communicatif,,0,Les chiens sont des animaux tellement communicatifs
 conversation,animal,chat,,,0,Est-ce que tu aimes les chats ?
 conversation,animal,chien,,,0,Est-ce que tu aimes les chiens ?
@@ -115,16 +116,16 @@ mensonge,rencontre,oublier,,,3,Je n'oublierai jamais notre rencontre
 mensonge,vie,activite,,,2,Je ne veux pas passer un autre moment de ma vie sans toi
 compliment,amerique,hamburger,nourriture,petillante,4,Tu es p&#233;tillante comme le cornichon de mon big mac
 compliment,sourire,sexe,grand,,5,Ton sourire est aussi grand que mon...
-compliment,lune,etoile,ciel,,,"Au clair de lune, tu es mon &#233;toile [sobriquet]"
-conversation,voyage,jeunesse,,,,J'ai visité bien des pays durant ma jeunesse
+compliment,lune,etoile,ciel,,,"Au clair de lune, tu es mon &#233;toile mon petit chat"
+conversation,voyage,jeunesse,,,,J'ai visit&#233; bien des pays durant ma jeunesse
 mensonge,futur,imaginer,beaute,,,Le futur me semble si beau quand je m'imagine avec toi
-conversation,amerique,vie,,,,J'aime tellement la vision de la vie des américains
-compliment,jour,soleil,,,,"Chaque jour, tu es mon soleil [sobriquet]"
-compliment,communicatif,toi,,,,"Quand je suis avec toi [sobriquet], tu es ma bonne humeur"
+conversation,amerique,vie,,,,J'aime tellement la vision de la vie des am&#233;ricains
+compliment,jour,soleil,,,,"Chaque jour, tu es mon soleil bichette"
+compliment,communicatif,toi,,,,"Quand je suis avec toi lapin, tu es ma bonne humeur"
 compliment,sosie,futur,beaute,,,Tu es le sosie de ma future copine
 conversation,cinema,titanic,sensibilite,emouvoir,,Titanic m'a tellement &#233;mu
 compliment,beaute,passion,,,,Beaut&#233; fatale quand j'te vois je m'&#233;tale.
-compliment,sourire,sensibilite,,,,[sobriquet] quand je vois ton sourire je me sens faillir
+compliment,sourire,sensibilite,,,,baby quand je vois ton sourire je me sens faillir
 conversation,vetement,mode,sexe,,,Tes v&#234;tements doivent partir mais toi tu peux rester.
 conversation,langue,bisou,muscle,sport,,Tu savais que la langue &#233;tait un muscle ? On fait un bras de fer ?
 mensonge,cœur,charme,,,,"D&#233;sol&#233;, je ne t'ai pas entendue, pas mon cœur bat trop fort pour toi"
@@ -135,8 +136,8 @@ conversation,amerique,argent,,,,"Si en Am&#233;rique on fait bling-bling, avec m
 conversation,numero,dieu,telephone,,,"Dieu m'a tout donn&#233;, sauf ton num&#233;ro"
 compliment,chaleur,sensuel,ecologie,,,Maintenant que je te vois je sais qui est responsable du r&#233;chauffement climatique. 
 conversation,reve,,,,,On m’a toujours dit de suivre mes r&#234;ves alors ce soir je te suis.
-conversation,reve,magie,,,,C’est ton plus beau r&#234;ve que je veux r&#233;enchanter [sobriquet]
-conversation,triste,,,,,Tu as l'air triste [sobriquet]
+conversation,reve,magie,,,,C’est ton plus beau r&#234;ve que je veux r&#233;enchanter minou
+conversation,triste,,,,,Tu as l'air triste poussin
 conversation,demenagement,muscle,,,,T'aider pour ton d&#233;m&#233;nagement ? Biens&#251;r que je peux
 compliment,corps,mince,,,,Tu as un tour de taille fantastique!
 compliment,corps,soin,,,,&#199;a se voit que tu prends soin de ton corps
@@ -148,14 +149,14 @@ conversation,voyage,activite,,,,Est-ce que tu aimes voyager ?
 conversation,beaute,,,,,Comment une si belle femme que toi peut ne pas &#234;tre accompagn&#233;e ?
 conversation,mignon,chat,animal,sensibilite,,Qu'ils sont mignons les petits chats !
 compliment,chat,animal,mignon,beaute,,Tu es belle comme un chaton
-conversation,nourriture,manger,,,,Tu viens manger avec moi après ?
+conversation,nourriture,manger,,,,Tu viens manger avec moi apr&#232;s ?
 conversation,nourriture,manger,,,5,J'ai envie de te manger
-compliment,nourriture,manger,croquer,,1,Tu es à croquer
+compliment,nourriture,manger,croquer,,1,Tu es &#224; croquer
 mensonge,danse,fete,,,,On m'a toujours dit que je dansais comme un dieu
-mensonge,musique,rythme,danse,,,"Pour un musicien comme moi, le sens du rythme c'est inné"
+mensonge,musique,rythme,danse,,,"Pour un musicien comme moi, le sens du rythme c'est inn&#233;"
 conversation,danse,danse,,,,Tu veux danser avec moi ?
-conversation,danse,sensuel,,,,On fait un peu de collé-serré avant que je t'envoie valser ?
-compliment,fleur,beaute,,,,Tu es belle telle une fleur qui vient d'éclore
+conversation,danse,sensuel,,,,On fait un peu de coll&#233;-serr&#233; avant que je t'envoie valser ?
+compliment,fleur,beaute,,,,Tu es belle telle une fleur qui vient d'&#233;clore
 conversation,plage,mer,nu,sensuel,,"En ce moment je nous imagine tous les deux, nus sur la plage"
 conversation,dehors,accompagner,cacher,,,Que penses-tu de m'accompagner dehors ?
 ,,,,,,

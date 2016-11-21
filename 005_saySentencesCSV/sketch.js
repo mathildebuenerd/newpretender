@@ -34,6 +34,42 @@ function preload() {
 }
 
 
+function reset() {
+	var isStartFinished = false;
+	var isFinished = false;
+	var counter = 0;
+	var tableau;
+	var tab_categorie = [];
+	var tab_mot_cle0 = [];
+	var tab_mot_cle1 = [];
+	var tab_mot_cle2 = [];
+	var tab_mot_cle3 = [];
+	var tab_intensite = [];
+	var tab_phrase = [];
+	var next = 2;
+
+	var mots_cle = [];
+	var subjects = [];
+	var subject;
+	var currentPhrase;
+
+	var intensite = 0;
+	var gestures = [];
+	var compliments = [];
+	var conversations = [];
+	var lies = [];
+	var sobriquets = [];
+	var texte = document.getElementById('texte');
+
+	var nbTouch = 0;
+	var changeSubject = true;
+	var touched = 0;
+
+	makeSubjectsList();
+  makeGesturesList();
+
+}
+
 
 function setup() {
 
@@ -100,7 +136,7 @@ function makeGesturesList() {
 
 function draw() {
 
-	if (subjects.length == 0) {
+	if (nbTouch>50) {
 		isFinished = true;
 	}
 
@@ -110,6 +146,8 @@ function draw() {
 
 
 function choisi() {
+
+	// if (responsiveVoice.isPlaying() == false) {
 
 	var dice = int(random(15));
 
@@ -132,7 +170,17 @@ function choisi() {
 	next++;
 
 	nbTouch++;
-	// print(nbTouch);
+	print("choisi");
+
+	// } else if(responsiveVoice.isPlaying()) {
+	// 	counter++;
+	// 	if (counter >5) {
+	// 		 responsiveVoice.cancel();
+	// 		 counter = 0;
+	// 	}
+	// }
+
+
 
 }
 
