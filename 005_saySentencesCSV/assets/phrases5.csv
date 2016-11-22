@@ -4,24 +4,25 @@ conversation,cheveux,toucher,,,1,Est-ce que je peux toucher tes beaux cheveux ?
 conversation,aujourd_hui,activite,,,0,Qu'est-ce que tu as fait aujourd'hui ?
 conversation,animal,,,,0,Quel est ton animal pr&#233;f&#233;r&#233; ?
 mensonge,toi,ensemble,,,3,Je serai toujours l&#224; pour toi
+mensonge,toi,oublier,,,1,Je ne t'oublierai jamais
 mensonge,toi,conquete,jour,promesse,4,Je te promets de te conqu&#233;rir chaque jour
 mensonge,confiance,sensibilite,fidelite,,3,Je te fais enti&#232;rement confiance
 mensonge,femmes,fidelite,autres,,0,Les autres femmes ? Je n'en ai que faire.
 mensonge,plaisir,toi,voir,,0,&#199;a me fait toujours plaisir de te voir
 compliment,langage,yeux,,,0,Le plus beau langage du monde est celui que tes yeux utilisent.
-compliment,maquillage,beaute,soin,,0,"Tu ne portes pas de maquillage. Really ?"","
+compliment,maquillage,beaute,soin,,0,"Tu ne portes pas de maquillage. Vraiment ?"","
 compliment,beaute,delit,,,0,"Si tu &#233;tais un d&#233;lit, tu serais un exc&#232;s de beaut&#233;.,"
-compliment,sport,soin,beaute,corps,0,"Ouah, tu ne mentais pas quand tu disais aller &#224; la gym.,"
-compliment,beaute,peinture,art,,0,"Je pourrais te contempler &#233;ternellement.,"
-compliment,peinture,beaute,art,,0,"Rodin n'aurait pas fait mieux que Toi.,"
-compliment,passion,art,toi,inspiration,0,"Tu m'inspires.,"
+compliment,sport,soin,beaute,corps,0,"Ouaaah, tu ne mentais pas quand tu disais aller &#224; la gym.,"
+mensonge,beaute,peinture,art,,0,"Je pourrais te contempler &#233;ternellement.,"
+mensonge,peinture,beaute,art,,0,"Rodin n'aurait pas fait mieux que Toi.,"
+mensonge,passion,art,toi,inspiration,0,"Tu m'inspires.,"
 compliment,sensuel,voix,caresse,douceur,3,"Le son de ta voix me caresse jusqu'en bas du dos.,"
 compliment,yeux,cœur,sensibilite,beaute,1,"La courbe de tes yeux fait le tour de mon coeur.,"
-compliment,intelligence,toi,lumiere,,0,Tu es tellement intelligente
+mensonge,intelligence,toi,lumiere,,0,Tu es tellement intelligente
 compliment,dimanche,activite,weekend,lumiere,0,"Tu illumines mes dimanches.,"
 compliment,sucre,goût,nourriture,douceur,0,"Tu es le sucre de mes Kellogg's Corn Flakes.,"
 compliment,joie,toi,ensemble,,0,"Ta bonne humeur est tellement communicative,"
-compliment,activite,toi,super,,0,"Avec toi, on ne s’ennuie jamais !,"
+mensonge,activite,toi,super,,0,"Avec toi, on ne s’ennuie jamais !,"
 compliment,toi,odeur,,,0,"Tu d&#233;gages quelque chose de fort,"
 compliment,toi,super,,,0,"Tu es vraiment g&#233;niale,"
 compliment,cheveux,beaute,douceur,,0,Que tes cheveux sont doux et beaux
@@ -43,12 +44,12 @@ action,œil,,,,0,Clin d'oeil
 action,yeux,regard,,,0,Regard t&#233;n&#233;breux
 action,bouche,,,,0,Fait la moue
 action,bouche,sourire,,,0,Sourire langoureux
-action,cheveux,,,,0,Main dans les cheveux
+action,cheveux,,,,0,Passe ta main dans tes cheveux
 action,bouche,sourire,,,0,Sourire en coin
-action,,,,,0,T&#234;te pench&#233;e
+action,,,,,0,Penche ta t&#234;te
 action,yeux,regard,,,0,Regard franc
 action,yeux,regard,,,3,Eye contact de canaille
-action,,,,,0,Toucher d'oreille
+action,,,,,0,Tripote ton oreille
 action,chemise,sensuel,,,4,Enl&#232;ve un bouton de ta chemise
 action,sensuel,torride,chaleur,,5,Arrache ton tee-shirt
 action,yeux,regard,,,1,Regard au fond des yeux
@@ -56,6 +57,12 @@ action,,,,,0,Doigt sur la joue
 action,bouche,sourire,,,0,Sourire avec les dents
 action,sensuel,,,,2,Pincement de l&#232;vre
 action,toucher,bras,peau,,2,Touche son avant-bras
+action,yeux,,,,0,Cligne rapidement des yeux
+action,joue,caresse,,,3,Caresse-lui la joue
+action,toucher,main,peau,,2,Touche-lui la main
+action,toucher,epaule,peau,,3,Masse-lui les &#233;paules
+action,yeux,regard,,,0,Regarde au loin
+action,menton,,,,0,Caresse ton menton
 conversation,cinema,passion,,,0,Tu aimes le cin&#233;ma ?
 mensonge,sport,soin,salle,muscle,0,Hier soir j'&#233;tais &#224; la salle de sport.
 mensonge,sport,salle,muscle,,0,J'adore faire des pompes.
@@ -65,7 +72,9 @@ mensonge,art,sensibilite,,,0,L'art est vraiment quelque chose qui me touche prof
 conversation,art,,,,0,Est-ce que tu aimes l'art ?
 compliment,art,peinture,mystere,,0,Tu ressemble &#224; un tableau du Caravage : claire et myst&#233;rieuse &#224; la fois
 mensonge,emotion,muscle,sport,,0,Je suis un grand sportif
-conversation,chemise,vetement,,,0,Quelle jolie chemise !
+mensonge,chemise,vetement,,,0,Quelle jolie chemise !
+mensonge,vetement,,,,0,Tu es merveilleusement bien habill&#233;e
+mensonge,vetement,couleur,,,0,Les couleurs que tu portes te vont à ravir !
 conversation,sport,soin,sante,,0,Le sport c'est essentiel pour la sant&#233;
 conversation,douceur,peau,,,2,Ta peau a l'air si douce
 mensonge,soin,toi,,,3,Je m'occuperai de toi avec le plus grand soin
@@ -77,9 +86,9 @@ mensonge,musique,dieu,talent,,0,Je suis un dieu de la musique
 mensonge,musique,piano,instrument,,0,Je fais du piano depuis mes cinq ans
 mensonge,musique,composition,instrument,,0,J'adorerai te jouer une de mes compositions
 mensonge,musique,chanter,composition,,0,J'&#233;cris des chansons d'amour
-compliment,inspiration,musique,chanter,,0,Tu es mon inspiration pour ma prochaine chanson
+mensonge,inspiration,musique,chanter,,0,Tu es mon inspiration pour ma prochaine chanson
 compliment,regard,yeux,,,0,Ton regard me transperce
-compliment,regard,cœur,,,3,Quand je te ragrde je sens mon coeur fondre
+compliment,regard,cœur,,,3,Quand je te regarde je sens mon coeur fondre
 conversation,mains,toucher,caresse,,5,J'aimerais bien que tes mains se posent sur moi
 mensonge,theatre,art,passion,,0,Le th&#233; &#226;tre est un art fantastique
 compliment,theatre,cinema,actrice,,1,Tu n'as jamais pens&#233; &#224; devenir actrice ?
@@ -96,7 +105,7 @@ conversation,passion,voyage,culture,,0,Voyager c'est un super moyen de s'enrichi
 mensonge,argent,bonheur,,,0,L'argent ? Pour moi &#199;a ne fait pas tout
 mensonge,argent,bonheur,,,2,Ce qui compte ce n'est pas l'argent c'est le bonheur
 compliment,bonheur,toi,,,0,Le bonheur c'est d'&#234;tre &#224; tes c&#244;t&#233;s
-compliment,bonheur,toi,,,2,Le bonheur je le vis quand je suis avec toi
+mensonge,bonheur,toi,,,2,Le bonheur je le vis quand je suis avec toi
 compliment,dieu,chance,,,4,Dieu m'a b&#233;ni de t'avoir rencontr&#233;e
 compliment,dieu,chance,toi,,3,Dieu m'a donn&#233; une chance immense de te d&#233;couvrir
 mensonge,cinema,triste,pleurer,sensibilite,2,Il m'arrive de pleurer devant un film triste
@@ -105,13 +114,13 @@ mensonge,sensibilite,faiblesse,force,aveu,1,"Je n'ai pas honte de mes faiblesses
 mensonge,soutien,force,,,3,Je pourrai te soutenir chaque jour
 mensonge,toi,,,,2,Tu es la plus int&#233;ressante des femmes que j'ai rencontr&#233;es
 compliment,charme,toi,sensuel,,0,Je suis tr&#232;s sensible &#224; ton charme hors-norme
-compliment,authentique,,,,0,On voit que tu es une personne authentique
+mensonge,authentique,,,,0,On voit que tu es une personne authentique
 compliment,sincere,regard,cœur,chaleur,2,La sinc&#233;rit&#233; de ton regard n'a d'&#233;gal que la chaleur de mon coeur
 compliment,sourire,cheveux,beaute,,0,"J'adore ton sourire, j'adore tes cheveux."
 mensonge,toi,sensibilite,,,0,Je tiens vraiment &#224; toi
 mensonge,souvenir,rencontre,,,1,Mon plus beau souvenir ? Quand je t'ai rencontr&#233;e
 compliment,beaute,,,,0,"Il me semble que je t'ai d&#233;j&#224; vue. Oui, je me rappelle il y avait ta photo dans le dictionnaire sous la d&#233;finition de ""Splendeur"""
-compliment,toi,passion,,,2,Cela fait cinq minutes que je ne pense plus qu'&#224; toi
+mensonge,toi,passion,,,2,Cela fait cinq minutes que je ne pense plus qu'&#224; toi
 mensonge,rencontre,oublier,,,3,Je n'oublierai jamais notre rencontre
 mensonge,vie,activite,,,2,Je ne veux pas passer un autre moment de ma vie sans toi
 compliment,amerique,hamburger,nourriture,petillante,4,Tu es p&#233;tillante comme le cornichon de mon big mac
@@ -140,7 +149,10 @@ conversation,reve,magie,,,,C’est ton plus beau r&#234;ve que je veux r&#233;ench
 conversation,triste,,,,,Tu as l'air triste poussin
 conversation,demenagement,muscle,,,,T'aider pour ton d&#233;m&#233;nagement ? Biens&#251;r que je peux
 compliment,corps,mince,,,,Tu as un tour de taille fantastique!
-compliment,corps,soin,,,,&#199;a se voit que tu prends soin de ton corps
+mensonge,chaleur,sensuel,temperature,,,Je crois que la temp&#233;rature a monté depuis que tu es l&#224;
+mensonge,corps,soin,,,,&#199;a se voit que tu prends soin de ton corps
+mensonge,beaute,compatibilite,,,,Quand je vois comme tu es belle je me dis que nous sommes hyper-compatibles
+mensonge,compatibilite,soin,,,,Nous &#233;tions fait pour nous rencontrer
 conversation,corps,mince,regime,,,Tu ne fais pas de r&#233;gime ? S&#233;rieusement ?
 conversation,corps,mannequin,,,,Tu n'a jamais pens&#233; &#224; devenir mannequin ?
 conversation,vetement,original,,,,Que tes v&#234;tements sont anticonformistes!
@@ -156,7 +168,7 @@ mensonge,danse,fete,,,,On m'a toujours dit que je dansais comme un dieu
 mensonge,musique,rythme,danse,,,"Pour un musicien comme moi, le sens du rythme c'est inn&#233;"
 conversation,danse,danse,,,,Tu veux danser avec moi ?
 conversation,danse,sensuel,,,,On fait un peu de coll&#233;-serr&#233; avant que je t'envoie valser ?
-compliment,fleur,beaute,,,,Tu es belle telle une fleur qui vient d'&#233;clore
+mensonge,fleur,beaute,,,,Tu es belle telle une fleur qui vient d'&#233;clore
 conversation,plage,mer,nu,sensuel,,"En ce moment je nous imagine tous les deux, nus sur la plage"
 conversation,dehors,accompagner,cacher,,,Que penses-tu de m'accompagner dehors ?
 ,,,,,,
