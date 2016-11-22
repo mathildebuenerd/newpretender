@@ -22,16 +22,15 @@ mensonge,intelligence,toi,lumiere,,0,Tu es tellement intelligente
 compliment,dimanche,activite,weekend,lumiere,0,"Tu illumines mes dimanches.,"
 compliment,sucre,goût,nourriture,douceur,0,"Tu es le sucre de mes Kellogg's Corn Flakes.,"
 compliment,joie,toi,ensemble,,0,"Ta bonne humeur est tellement communicative,"
-mensonge,activite,toi,super,,0,"Avec toi, on ne s’ennuie jamais !,"
+mensonge,activite,toi,super,,0,"Avec toi, on ne s'ennuie jamais !,"
 compliment,toi,odeur,,,0,"Tu d&#233;gages quelque chose de fort,"
 compliment,toi,super,,,0,"Tu es vraiment g&#233;niale,"
 compliment,cheveux,beaute,douceur,,0,Que tes cheveux sont doux et beaux
 mensonge,weekend,activite,caritatif,,0,Je travaille tous les week-end dans une association cartitative
 mensonge,activite,caritatif,,,0,Aider les autres c'est vraiment mon leitmotiv dans la vie
 mensonge,animal,,,,0,J'adore les animaux
-conversation,animal,chat,,,0,Les girafes sont vraiment des animaux exceptionnels
-conversation,coeur,,,,2,Tu fais bondir mon p'tit coeur
-conversation,animal,girafe,,,0,Les chats sont vraiment des animaux exceptionnels
+mensonge,coeur,,,,2,Tu fais bondir mon p'tit coeur
+conversation,animal,chat,,,0,Les chats sont vraiment des animaux exceptionnels
 compliment,chat,beaute,,,,Tu es aussi mignonne qu'un chaton
 compliment,chat,cheveux,poils,,,Le poil de tes cheveux est si soyeux
 conversation,animal,chien,,,0,Les chiens sont vraiment des animaux exceptionnels
@@ -144,8 +143,8 @@ conversation,fleur,rose,sexe,,,Je crois que l'amour est une rose et j'ai l'&#233
 conversation,amerique,argent,,,,"Si en Am&#233;rique on fait bling-bling, avec moi on fait bang bang"
 conversation,numero,dieu,telephone,,,"Dieu m'a tout donn&#233;, sauf ton num&#233;ro"
 compliment,chaleur,sensuel,ecologie,,,Maintenant que je te vois je sais qui est responsable du r&#233;chauffement climatique. 
-conversation,reve,,,,,On m’a toujours dit de suivre mes r&#234;ves alors ce soir je te suis.
-conversation,reve,magie,,,,C’est ton plus beau r&#234;ve que je veux r&#233;enchanter minou
+conversation,reve,,,,,On m'a toujours dit de suivre mes r&#234;ves alors ce soir je te suis.
+conversation,reve,magie,,,,C'est ton plus beau r&#234;ve que je veux r&#233;enchanter minou
 conversation,triste,,,,,Tu as l'air triste poussin
 conversation,demenagement,muscle,,,,T'aider pour ton d&#233;m&#233;nagement ? Biens&#251;r que je peux
 compliment,corps,mince,,,,Tu as un tour de taille fantastique!

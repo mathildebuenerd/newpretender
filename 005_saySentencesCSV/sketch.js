@@ -130,7 +130,7 @@ function makeGesturesList() {
 		}
 	}
 
-	print("compliments " + compliments.length + " convers " + conversations.length + " mensonge " + lies.length);
+	//print("compliments " + compliments.length + " convers " + conversations.length + " mensonge " + lies.length);
 
 }
 
@@ -170,7 +170,7 @@ function choisi() {
 	next++;
 
 	nbTouch++;
-	print("choisi");
+	// print("choisi");
 
 	// } else if(responsiveVoice.isPlaying()) {
 	// 	counter++;

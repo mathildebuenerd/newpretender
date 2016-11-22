@@ -65,13 +65,21 @@ button {
 <p id="texte"></p>
 
 
-<p id="debut">Bonjour, je suis ton coach. Grâce à moi tu vas pouvoir trouver une nouvelle petite amie en moins de cinq minutes. Tout ce que tu as à faire c'est répéter après moi.
-Si tu es prêt, appuie plusieurs fois sur l'un des boutons.
+<p id="debut">Salut mec, je suis ton coach. Grâce à moi tu vas pouvoir trouver une nouvelle petite amie en moins de cinq minutes. Tout ce que tu as à faire c'est répéter après moi.
+Si tu es prêt, appuie plusieurs fois sur les boutons.
 </p>
 
-<p id="fin">Bravo, tu viens de pécho une super meuf. Maintenant n'hésite pas à lui proposer de la ramener chez toi.</p>
+<audio id="son_debut">
+  <source src="assets/sounds/atari-2.wav" type="audio/mpeg">
+</audio>
 
-<button onclick="reset();">RESET</button>
+<audio id="son_fin">
+  <source src="assets/sounds/jeu-console.wav" type="audio/mpeg">
+</audio>
+
+<p id="fin">                      Bravo, tu viens de pécho une super meuf. Maintenant n'hésite pas à lui proposer de la ramener chez toi.</p>
+
+<button onclick="window.location.reload(false)">RESET</button>
 
 
 <script language="javascript" type="text/javascript" src="sketch.js"></script>
@@ -84,6 +92,10 @@ var isFinished = false;
 
 var counter = 0;
 
+var countDebut = 0;
+
+var introMusic = true;
+
 document.body.addEventListener("touchstart", afficher);
 
 
@@ -91,7 +103,8 @@ document.body.addEventListener("touchstart", afficher);
 
 function afficher() {
 
-  print("isPlaying " + responsiveVoice.isPlaying());
+  var sonFin = document.getElementById('son_fin');
+  var sonDebut = document.getElementById('son_debut');
 
   // if(responsiveVoice.isPlaying() == false) {
 
@@ -103,20 +116,26 @@ function afficher() {
   // responsiveVoice.cancel();
   var voix = "French Female";
 
+
+  // if (touched == 1) {
+  //   sonDebut.play();  
+  // }
+
   if (touched == 5) {
-    console.log("debut");
+    // console.log("debut");
     responsiveVoice.speak(debut, voix);
     // touched = 10;
     // on considère que le début est fini quand la voix a fini de dire la phrase du debut
     isStartFinished = true;
 
   } else if (touched > 10 && isStartFinished && isFinished == false) {
-    console.log("texte");
+    // console.log("texte");
     document.body.addEventListener("touchstart", choisi);
     responsiveVoice.speak(texte, voix);
 
   } else if (isFinished) {
-    console.log("fin");
+    sonFin.play();
+    // console.log("fin");
     responsiveVoice.speak(fin, voix);
 
   }
