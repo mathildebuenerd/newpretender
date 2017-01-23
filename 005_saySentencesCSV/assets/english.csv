@@ -1,0 +1,197 @@
+categorie,mot_cle0,mot_cle1,mot_cle2,mot_cle3,intensite,phrase
+mensonge,ensemble,,,,4,"Together, everything will be possible"
+conversation,cheveux,toucher,,,1,Can I touch your hair ?
+conversation,aujourd_hui,activite,,,0,What did you do today ?
+conversation,animal,,,,0,Quel est ton animal pr&#233;f&#233;r&#233; ?
+mensonge,toi,ensemble,,,3,"No matter what happens, I'm here for you"
+,toi,ensemble,,,2,"I give you my word baby, I will be here for you always "
+,toi,beaute,,,,What does it feel like to be the most beautiful girl in this room? 
+,yeux,,,,,"There must be something wrong with my eyes, I can't take them off you. "
+,regard,,,,,"Do you believe in love at first sight, or should I walk by again? "
+,mariage,,,,,Were do you hide your wings? 
+mensonge,toi,oublier,,,1,I will never forget your beauty
+mensonge,toi,conquete,jour,promesse,4,I promise you I will win your heart
+mensonge,confiance,sensibilite,fidelite,,3,I trust you entirely
+mensonge,femmes,fidelite,autres,,0,I don't care about the other women.
+mensonge,plaisir,toi,voir,,0,"You know, it's good to see you."
+compliment,langage,yeux,,,0,The most beautiful language in the world is the one you're eyes are talking.
+compliment,maquillage,beaute,soin,,0,You don't wear makeup ? Really ?
+compliment,beaute,delit,,,0,"Girl, you better have a license, cause you're driving me crazy!"
+compliment,sport,soin,beaute,corps,0,"Ouaaah, tu ne mentais pas quand tu disais aller &#224; la gym.,"
+mensonge,beaute,peinture,art,,0,"Je pourrais te contempler &#233;ternellement.,"
+mensonge,peinture,beaute,art,,0,Rodin wouldn't have done any better than you
+mensonge,passion,art,toi,inspiration,0,"Girl, you got me inspired"
+compliment,sensuel,voix,caresse,douceur,3,"Le son de ta voix me caresse jusqu'en bas du dos.,"
+compliment,yeux,cœur,sensibilite,beaute,1,"Of all your beautiful curves, your smile is my favourite. "
+mensonge,intelligence,toi,lumiere,,0,You're so clever !
+compliment,dimanche,activite,weekend,lumiere,0,"Tu illumines mes dimanches.,"
+compliment,sucre,goût,nourriture,douceur,0,"Tu es le sucre de mes Kellogg's Corn Flakes.,"
+compliment,joie,toi,ensemble,,0,"Ta bonne humeur est tellement communicative,"
+mensonge,activite,toi,super,,0,"Avec toi, on ne s'ennuie jamais !,"
+compliment,toi,odeur,,,0,"Tu d&#233;gages quelque chose de fort,"
+compliment,toi,super,,,0,You're so great !
+compliment,cheveux,beaute,douceur,,0,Que tes cheveux sont doux et beaux
+mensonge,weekend,activite,caritatif,,0,Je travaille tous les week-end dans une association cartitative
+mensonge,activite,caritatif,,,0,Aider les autres c'est vraiment mon leitmotiv dans la vie
+mensonge,animal,,,,0,J'adore les animaux
+mensonge,coeur,,,,2,Tu fais bondir mon p'tit coeur
+conversation,animal,chat,,,0,Les chats sont vraiment des animaux exceptionnels
+compliment,c½ur,beaute,,,,You're as cute as a button !
+compliment,chat,cheveux,poils,,,Your hair are so sliky !
+conversation,animal,chien,,,0,Les chiens sont vraiment des animaux exceptionnels
+mensonge,soin,activite,toi,,2,J'aime prendre soin de ma petite ch&#233;rie
+mensonge,fidelite,,,,2,Quand je suis avec une femme je ne vois plus les autres autour
+mensonge,fidelite,sensibilite,,,0,L'infidelit&#233; est une chose qui me d&#233;go&#251;te
+mensonge,cuisine,passion,,,0,La cuisine ? C'est ma passion
+action,fesses,toucher,,,5,Grab her butt
+action,œil,,,,0,Wink at her
+action,yeux,regard,,,0,Have a mysterious look
+action,bouche,,,,0,Pout
+action,bouche,sourire,,,0,Languorous smile
+action,cheveux,,,,0,Run your hand through your hair
+action,bouche,sourire,,,0,Sourire en coin
+action,,,,,0,Penche ta t&#234;te
+action,yeux,regard,,,0,Regard franc
+action,yeux,regard,,,3,Eye contact de canaille
+action,,,,,0,Play with you ear
+action,chemise,sensuel,,,4,Unbutton your shirt
+action,sensuel,torride,chaleur,,5,Tear your shirt off
+action,yeux,regard,,,1,Look deep in her eyes
+action,,,,,0,Put a finger on your cheek
+action,bouche,sourire,,,0,Smile with your teeth
+action,sensuel,,,,2,Pincement de l&#232;vre
+action,toucher,bras,peau,,2,Touch her forearm
+action,yeux,,,,0,Cligne rapidement des yeux
+action,joue,caresse,,,3,Stroke her cheek
+action,toucher,main,peau,,2,Touch her hand
+action,toucher,epaule,peau,,3,Massage her shoulder
+action,yeux,regard,,,0,Regarde au loin
+action,menton,,,,0,Stroke you chin
+conversation,cinema,passion,,,0,Tu aimes le cin&#233;ma ?
+mensonge,sport,soin,salle,muscle,0,Hier soir j'&#233;tais &#224; la salle de sport.
+mensonge,sport,salle,muscle,,0,I love to do push-ups
+mensonge,soin,corps,muscle,sante,0,Prendre soin de mon corps c'est primordial.
+mensonge,musee,voyage,art,,0,Je visite souvent des mus&#233;es quand je suis en voyage
+mensonge,art,sensibilite,,,0,L'art est vraiment quelque chose qui me touche profond&#233;ment
+conversation,art,,,,0,Est-ce que tu aimes l'art ?
+compliment,art,peinture,mystere,,0,Tu ressemble &#224; un tableau du Caravage : claire et myst&#233;rieuse &#224; la fois
+mensonge,emotion,muscle,sport,,0,Je suis un grand sportif
+mensonge,chemise,vetement,,,0,Quelle jolie chemise !
+mensonge,vetement,,,,0,Tu es merveilleusement bien habill&#233;e
+mensonge,vetement,couleur,,,0,Les couleurs que tu portes te vont à ravir !
+conversation,sport,soin,sante,,0,Le sport c'est essentiel pour la sant&#233;
+conversation,douceur,peau,,,2,Ta peau a l'air si douce
+mensonge,soin,toi,,,3,Je m'occuperai de toi avec le plus grand soin
+mensonge,art,peinture,sensibilite,,0,La peinture est un art qui me touche profond&#233;ment
+compliment,mains,art,peinture,,0,Avec des mains pareilles tu dois surement &#234;tre artiste ?
+compliment,voix,musique,chanter,,0,Avec une voix pareille tu dois surement &#234;tre chanteuse ?
+conversation,musique,passion,,,0,I love music
+mensonge,musique,dieu,talent,,0,I am a god of music
+mensonge,musique,piano,instrument,,0,I played the piano for 10 years
+mensonge,musique,composition,instrument,,0,J'adorerai te jouer une de mes compositions
+mensonge,musique,chanter,composition,,0,J'&#233;cris des chansons d'amour
+mensonge,inspiration,musique,chanter,,0,Tu es mon inspiration pour ma prochaine chanson
+compliment,regard,yeux,,,0,Ton regard me transperce
+compliment,regard,cœur,,,3,Quand je te regarde je sens mon coeur fondre
+conversation,mains,toucher,caresse,,5,J'aimerais bien que tes mains se posent sur moi
+mensonge,theatre,art,passion,,0,Le th&#233; &#226;tre est un art fantastique
+compliment,theatre,cinema,actrice,,1,Tu n'as jamais pens&#233; &#224; devenir actrice ?
+compliment,visage,dieu,sculpter,beaute,2,Ton visage semble avoir &#233;t&#233; model&#233; par dieu lui-m&#234;me
+compliment,visage,actrice,beaute,cinema,1,Tu as le visage d'une actrice
+compliment,emotion,yeux,beaute,sensibilite,2,Tes yeux transmettent tellement d'&#233;motions
+mensonge,passion,sport,,,0,Faire du sport tous les jours c'est essentiel pour moi
+conversation,animal,chat,communicatif,,0,Les chats sont des animaux tellement communicatifs
+compliment,animal,chat,,,1,Tu es douce comme un chaton ma jolie
+conversation,animal,chien,communicatif,,0,Les chiens sont des animaux tellement communicatifs
+conversation,animal,chat,,,0,Do you like cats ?
+conversation,animal,chien,,,0,Do you like dogs ?
+conversation,passion,voyage,culture,,0,Voyager c'est un super moyen de s'enrichir culturellement
+mensonge,argent,bonheur,,,0,L'argent ? Pour moi &#199;a ne fait pas tout
+mensonge,argent,bonheur,,,2,Ce qui compte ce n'est pas l'argent c'est le bonheur
+compliment,bonheur,toi,,,0,Le bonheur c'est d'&#234;tre &#224; tes c&#244;t&#233;s
+mensonge,bonheur,toi,,,2,Le bonheur je le vis quand je suis avec toi
+compliment,dieu,chance,,,4,Dieu m'a b&#233;ni de t'avoir rencontr&#233;e
+compliment,dieu,chance,toi,,3,Dieu m'a donn&#233; une chance immense de te d&#233;couvrir
+mensonge,cinema,triste,pleurer,sensibilite,2,Il m'arrive de pleurer devant un film triste
+mensonge,cinema,art,sensibilite,,0,Le cin&#233;ma est un art qui me touche profond&#233;ment
+mensonge,sensibilite,faiblesse,force,aveu,1,"Je n'ai pas honte de mes faiblesses, ce sont en fait en mes forces"
+mensonge,soutien,force,,,3,Je pourrai te soutenir chaque jour
+mensonge,toi,,,,2,Tu es la plus int&#233;ressante des femmes que j'ai rencontr&#233;es
+compliment,charme,toi,sensuel,,0,Je suis tr&#232;s sensible &#224; ton charme hors-norme
+mensonge,authentique,,,,0,On voit que tu es une personne authentique
+compliment,sincere,regard,cœur,chaleur,2,La sinc&#233;rit&#233; de ton regard n'a d'&#233;gal que la chaleur de mon coeur
+compliment,sourire,cheveux,beaute,,0,"I love your smile, I love your hair"
+mensonge,toi,sensibilite,,,0,I truly care about you
+mensonge,souvenir,rencontre,,,1,My favorite memory ? When I have met you
+compliment,beaute,,,,0,"Il me semble que je t'ai d&#233;j&#224; vue. Oui, je me rappelle il y avait ta photo dans le dictionnaire sous la d&#233;finition de ""Splendeur"""
+mensonge,toi,passion,,,2,Cela fait cinq minutes que je ne pense plus qu'&#224; toi
+mensonge,rencontre,oublier,,,3,I will never forget the day I met you
+mensonge,vie,activite,,,2,Je ne veux pas passer un autre moment de ma vie sans toi
+compliment,amerique,hamburger,nourriture,petillante,4,Tu es p&#233;tillante comme le cornichon de mon big mac
+compliment,sourire,sexe,grand,,5,Your smile is as big as my...
+compliment,lune,etoile,ciel,,,"Au clair de lune, tu es mon &#233;toile mon petit chat"
+conversation,voyage,jeunesse,,,,J'ai visit&#233; bien des pays durant ma jeunesse
+mensonge,futur,imaginer,beaute,,,Le futur me semble si beau quand je m'imagine avec toi
+conversation,amerique,vie,,,,J'aime tellement la vision de la vie des am&#233;ricains
+compliment,jour,soleil,,,,"Everyday, you're my sunshine "
+compliment,communicatif,toi,,,,"Quand je suis avec toi lapin, tu es ma bonne humeur"
+compliment,sosie,futur,beaute,,,You're exactly the double of my future girlfriend
+conversation,cinema,titanic,sensibilite,emouvoir,,Titanic m'a tellement &#233;mu
+compliment,beaute,passion,,,,Beaut&#233; fatale quand j'te vois je m'&#233;tale.
+compliment,sourire,sensibilite,,,,baby quand je vois ton sourire je me sens faillir
+conversation,vetement,mode,sexe,,,Tes v&#234;tements doivent partir mais toi tu peux rester.
+conversation,langue,bisou,muscle,sport,,Tu savais que la langue &#233;tait un muscle ? On fait un bras de fer ?
+mensonge,cœur,charme,,,,"D&#233;sol&#233;, je ne t'ai pas entendue, pas mon cœur bat trop fort pour toi"
+conversation,mordre,sensuel,chien,,,Je ne mords pas tu sais... Sauf si on me le demande
+compliment,malin,toi,,,,"Tu n'es pas bien maline, hein? J'aime &#199;a chez une femme."
+conversation,fleur,rose,sexe,,,I think love is a rose and I have a very big thorn
+conversation,amerique,argent,,,,"Si en Am&#233;rique on fait bling-bling, avec moi on fait bang bang"
+conversation,numero,dieu,telephone,,,"God gave me everything, except you phone number"
+compliment,chaleur,sensuel,ecologie,,,Maintenant que je te vois je sais qui est responsable du r&#233;chauffement climatique. 
+conversation,reve,,,,,On m'a toujours dit de suivre mes r&#234;ves alors ce soir je te suis.
+conversation,reve,magie,,,,C'est ton plus beau r&#234;ve que je veux r&#233;enchanter minou
+conversation,triste,,,,,You look sad baby
+conversation,demenagement,muscle,,,,T'aider pour ton d&#233;m&#233;nagement ? Biens&#251;r que je peux
+compliment,corps,mince,,,,Your waist size is incredible !
+mensonge,chaleur,sensuel,temperature,,,Je crois que la temp&#233;rature a monté depuis que tu es l&#224;
+mensonge,corps,soin,,,,&#199;a se voit que tu prends soin de ton corps
+mensonge,beaute,compatibilite,,,,Quand je vois comme tu es belle je me dis que nous sommes hyper-compatibles
+mensonge,compatibilite,soin,,,,Nous &#233;tions fait pour nous rencontrer
+conversation,corps,mince,regime,,,Tu ne fais pas de r&#233;gime ? S&#233;rieusement ?
+conversation,corps,mannequin,,,,Tu n'a jamais pens&#233; &#224; devenir mannequin ?
+conversation,vetement,original,,,,Que tes v&#234;tements sont anticonformistes!
+conversation,ete,activite,,,,Qu'as-tu fait cet &#233;t&#233; ?
+conversation,voyage,activite,,,,Do you like to travel ?
+conversation,beaute,,,,,Comment une si belle femme que toi peut ne pas &#234;tre accompagn&#233;e ?
+conversation,mignon,chat,animal,sensibilite,,Qu'ils sont mignons les petits chats !
+compliment,chat,animal,mignon,beaute,,Tu es belle comme un chaton
+conversation,nourriture,manger,,,,Tu viens manger avec moi apr&#232;s ?
+conversation,nourriture,manger,,,5,I want to eat you honey
+compliment,nourriture,manger,croquer,,1,You're so yummy!
+mensonge,danse,fete,,,,On m'a toujours dit que je dansais comme un dieu
+mensonge,musique,rythme,danse,,,"Pour un musicien comme moi, le sens du rythme c'est inn&#233;"
+conversation,danse,danse,,,,Do you want to dance with me ?
+conversation,danse,sensuel,,,,On fait un peu de coll&#233;-serr&#233; avant que je t'envoie valser ?
+mensonge,fleur,beaute,,,,Tu es belle telle une fleur qui vient d'&#233;clore
+conversation,plage,mer,nu,sensuel,,"Right now, I imagine you and me, naked on the beach."
+conversation,dehors,accompagner,cacher,,,Que penses-tu de m'accompagner dehors ?
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,ma jolie
+sobriquet,,,,,,princesse
+sobriquet,,,,,,mon petit chat
+sobriquet,,,,,,ch&#233;rie
+sobriquet,,,,,,poup&#233;e
+sobriquet,,,,,,baby
+sobriquet,,,,,,canard
+sobriquet,,,,,,ma belle
+sobriquet,,,,,,mon chou
+sobriquet,,,,,,ma puce
+sobriquet,,,,,,lapin
+sobriquet,,,,,,papillon
+sobriquet,,,,,,minou
+sobriquet,,,,,,bichette
+sobriquet,,,,,,poussin
+sobriquet,,,  ,,,b&#233;b&#233;
+sobriquet,,,,,,

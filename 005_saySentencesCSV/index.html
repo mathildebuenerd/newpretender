@@ -12,7 +12,7 @@
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous"></script> -->
 
-  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet"> 
 
   <style>
 
@@ -27,14 +27,25 @@ body {
 }
 
 #texte {
-  font-family: "Lato", sans-serif;
-  font-size: 20px;
+  font-family: "Droid Serif", sans-serif;
+  font-size: 18px;
   color: white;
+  text-align: center;
+  background-color: black;
+  z-index: 9999999;
   display: inline-block;
-  width: 50%;
-  margin-left: 20%;
-  margin-top: 30%;
+  min-width: 300px;
+  max-width: 350px;
+  padding:15px;
+  
+  position: absolute;
+  left: 50%;
+  bottom: 1%;
+  transform:translateX(-50%);
+  opacity: 0.999;
 
+  /*border:5px solid #444;*/
+  
   /* Texte non selectionnable */
   -webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
@@ -43,21 +54,60 @@ body {
 
 }
 
+
+
 button {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 100px;
-  width: 200px;
-  background-color: white;
+  background-color: #444;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border:0;
   padding: 15px;
 }
 
+@media (orientation: landscape) {
+  button {
+  bottom:0;
+  right: 0;
+  height: 100%;
+  width: 70px;
+}
+
+  button span {
+    width: 100px;
+    display: inline-block;
+    transform:rotate(-90deg) translate(-15px,-30px);
+  }
+}
+
+@media (orientation: portrait) {
+  button {
+  /*bottom: 70px;*/
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+}
+
+  button span {
+    width: 100px;
+    display: inline-block;
+    transform: translateX(-35px);
+  }
+
+  #texte {
+    transform: translate(-100%, -300px) rotate(90deg);
+  }
+}
+
+
+
 
 #rond1, #rond2 {
-  width: 45px;
-  height: 45px;
-  border:45px #444 solid;
+  width: 15px;
+  height: 15px;
+  border:15px #444 solid;
   border-radius: 100px;
   position: absolute;
   background-color: #444;
@@ -72,23 +122,23 @@ button {
 @media (orientation: landscape) {
 
   #rond1, #rond2 {top: 50%;}
-  #rond1 {left: 28%;}
-  #rond2 {left: 71%;}
+  #rond1 {left: 30%;}
+  #rond2 {left: 69%;}
 
 }
 
 @media (orientation: portrait) {
 
   #rond1, #rond2 {left: 50%;}
-  #rond1 {top: 28%;}
-  #rond2 {top: 71%;}
+  #rond1 {top: 30%;}
+  #rond2 {top: 69%;}
 
 }
 
 @keyframes blub {
-   0% {width: 45px; height: 45px; background-color: #444; border:45px solid #444;}
-   50% {width: 60px; height: 60px; background-color: #999; border:60px solid #999;}
-   100% {width: 45px; height: 45px; background-color: #444; border:45px solid #444;}
+   0% {width: 15px; height: 15px; background-color: #444; border:15px solid #444;}
+   50% {width: 30px; height: 30px; background-color: #999; border:30px solid #999;}
+   100% {width: 15px; height: 15px; background-color: #444; border:15px solid #444;}
     
 }
 
@@ -113,7 +163,7 @@ button {
 <div class="ronds" id="rond2"></div>
 
 
-<p id="texte"></p>
+<p id="texte">my super genial test pour voir</p>
 
 
 <p id="debut">Salut mec, je suis ton coach. Grâce à moi tu vas pouvoir trouver une nouvelle petite amie en moins de cinq minutes. Tout ce que tu as à faire c'est répéter après moi.
@@ -134,7 +184,7 @@ Si tu es prêt, appuie plusieurs fois sur les boutons.
 
 <p id="fin">                      Bravo, tu viens de pécho une super meuf. Maintenant n'hésite pas à lui proposer de la ramener chez toi.</p>
 
-<button onclick="window.location.reload(false)">RESET</button>
+<button onclick="window.location.reload(false)"><span>Recommence</span></button>
 
 
 <script language="javascript" type="text/javascript" src="sketch.js"></script>
