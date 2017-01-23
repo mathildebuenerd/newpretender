@@ -35,37 +35,37 @@ function preload() {
 
 
 function reset() {
-	var isStartFinished = false;
-	var isFinished = false;
-	var counter = 0;
-	var tableau;
-	var tab_categorie = [];
-	var tab_mot_cle0 = [];
-	var tab_mot_cle1 = [];
-	var tab_mot_cle2 = [];
-	var tab_mot_cle3 = [];
-	var tab_intensite = [];
-	var tab_phrase = [];
-	var next = 2;
+	isStartFinished = false;
+	isFinished = false;
+	counter = 0;
 
-	var mots_cle = [];
-	var subjects = [];
-	var subject;
-	var currentPhrase;
+	tab_categorie = [];
+	tab_mot_cle0 = [];
+	tab_mot_cle1 = [];
+	tab_mot_cle2 = [];
+	tab_mot_cle3 = [];
+	tab_intensite = [];
+	tab_phrase = [];
+	next = 2;
 
-	var intensite = 0;
-	var gestures = [];
-	var compliments = [];
-	var conversations = [];
-	var lies = [];
-	var sobriquets = [];
-	var texte = document.getElementById('texte');
+	mots_cle = [];
+	subjects = [];
+	subject;
+	currentPhrase;
 
-	var nbTouch = 0;
-	var changeSubject = true;
+	intensite = 0;
+	gestures = [];
+	compliments = [];
+	conversations = [];
+	lies = [];
+	sobriquets = [];
+	texte = document.getElementById('texte');
+
+	nbTouch = 0;
+	changeSubject = true;
 	var touched = 0;
 
-	makeSubjectsList();
+  makeSubjectsList();
   makeGesturesList();
 
 }
@@ -88,6 +88,8 @@ function setup() {
 
   makeSubjectsList();
   makeGesturesList();
+
+  createInterface();
 
 }
 
@@ -142,6 +144,7 @@ function draw() {
 
 
 }
+
 
 
 

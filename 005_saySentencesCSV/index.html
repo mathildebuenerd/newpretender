@@ -53,6 +53,53 @@ button {
   padding: 15px;
 }
 
+
+#rond1, #rond2 {
+  width: 45px;
+  height: 45px;
+  border:45px #444 solid;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #444;
+  transform:translate3d(-50%,-50%,0); /*utilise translateZ(0) pour rendre l'animation plus smooth*/
+  animation: blub 4s infinite ease-in-out;
+  transition: all 0.3s ease-in-out;
+  /*transform: translateZ(0);*/
+}
+
+
+
+@media (orientation: landscape) {
+
+  #rond1, #rond2 {top: 50%;}
+  #rond1 {left: 28%;}
+  #rond2 {left: 71%;}
+
+}
+
+@media (orientation: portrait) {
+
+  #rond1, #rond2 {left: 50%;}
+  #rond1 {top: 28%;}
+  #rond2 {top: 71%;}
+
+}
+
+@keyframes blub {
+   0% {width: 45px; height: 45px; background-color: #444; border:45px solid #444;}
+   50% {width: 60px; height: 60px; background-color: #999; border:60px solid #999;}
+   100% {width: 45px; height: 45px; background-color: #444; border:45px solid #444;}
+    
+}
+
+@keyframes oneblub {
+   50% {background-color: #f0f; border-color:#f0f;}
+   100% {background-color: #666; border-color:#666;}
+}
+
+
+
+
   </style>
 
   <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
@@ -60,6 +107,10 @@ button {
 </head>
 
 <body>
+
+
+<div class="ronds" id="rond1"></div>
+<div class="ronds" id="rond2"></div>
 
 
 <p id="texte"></p>
@@ -75,6 +126,10 @@ Si tu es prêt, appuie plusieurs fois sur les boutons.
 
 <audio id="son_fin">
   <source src="assets/sounds/jeu-console.wav" type="audio/mpeg">
+</audio>
+
+<audio id="bip">
+  <source src="assets/sounds/18545.wav" type="audio/mpeg">
 </audio>
 
 <p id="fin">                      Bravo, tu viens de pécho une super meuf. Maintenant n'hésite pas à lui proposer de la ramener chez toi.</p>
@@ -98,11 +153,50 @@ var introMusic = true;
 
 document.body.addEventListener("touchstart", afficher);
 
+var ronds = document.getElementsByClassName("ronds");
+var rond1 = document.getElementById("rond1");
+
+var animationToApply = "blub 4s infinite ease-in-out, oneblub 0.5s ease";
 
 
+function afficher(event) {
 
-function afficher() {
+  console.log("event " + event.touches[0].clientY);
 
+  console.log("window.innerWidth " + window.innerWidth + " window.innerHeight " + window.innerHeight);
+
+// format paysage
+if (window.innerWidth > window.innerHeight) {
+   if (event.touches[0].clientX < (window.innerWidth)/2) {
+    ronds[0].style.animation = animationToApply;
+  }
+
+  if (event.touches[0].clientX > (window.innerWidth)/2) {
+    ronds[1].style.animation = animationToApply;
+  }
+}
+
+// format portrait 
+if (window.innerWidth < window.innerHeight) {
+   if (event.touches[0].clientY < (window.innerHeight)/2) {
+    ronds[0].style.animation = animationToApply;
+  }
+
+  if (event.touches[0].clientY > (window.innerHeight)/2) {
+    ronds[1].style.animation = animationToApply;
+  }
+}
+ 
+  
+
+  // on remet l'animation à zéro
+  setTimeout(function() {
+    ronds[0].style.animation = "blub 4s infinite ease-in-out";
+    ronds[1].style.animation = "blub 4s infinite ease-in-out";
+  }, 1000);
+
+
+  var bip = document.getElementById("bip");
   var sonFin = document.getElementById('son_fin');
   var sonDebut = document.getElementById('son_debut');
 
@@ -117,9 +211,8 @@ function afficher() {
   var voix = "French Female";
 
 
-  // if (touched == 1) {
-  //   sonDebut.play();  
-  // }
+// chaque fois qu'on appuie on lance un bip
+  bip.play();
 
   if (touched == 5) {
     // console.log("debut");
@@ -149,6 +242,7 @@ function afficher() {
 if (touched < 12) {
   touched++;
 }
+
 
     
 }
