@@ -89,7 +89,7 @@ function setup() {
   makeSubjectsList();
   makeGesturesList();
 
-  createInterface();
+  // createInterface();
 
 }
 
